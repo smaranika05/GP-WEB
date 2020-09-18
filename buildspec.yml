@@ -1,0 +1,34 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+phases:
+  install:
+    # runtime-versions:
+    #   nodejs: 12
+    commands:
+      - echo installing yarn...
+      - npm install -g yarn
+      - yarn -v
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies via yarn...
+      - yarn
+      - echo NPM dependencies installed!
+      - echo linter--fix started!
+      - yarn lint-fix
+      - echo linter--fix completed!
+      - echo Unit tests started!
+      - yarn test-ci
+      - echo Unit tests completed!
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling code...
+      - echo yarn build started on `date`
+      -yarn build
+      - echo yarn build completed on `date`
+  artifacts:
+    files:
+      - '**/*'
+    discard-paths: no
+  base-directory: build
+
