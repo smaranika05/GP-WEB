@@ -14,7 +14,6 @@ phases:
       - yarn
       - echo NPM dependencies installed!
       - echo linter--fix started!
-     # - yarn lint-fix
       - echo linter--fix completed!
   build:
     commands:
@@ -23,9 +22,8 @@ phases:
       - echo yarn build started on `date`
       - yarn build
       - echo yarn build completed on `date`
-  artifacts:
-    files:
-      - '**/*'
-    discard-paths: no
-  base-directory: build
+  post_build:
+    commands:
+      - aws s3 sync --delete build/ s3://gp-web-demo --acl public-read
+
 
