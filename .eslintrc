@@ -1,0 +1,42 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "rules": {
+    "indent": [2, "tab"],
+    "no-tabs": 0,
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
+    "comma-dangle": ["error", "never"], // disallowing comma at the end of array/object
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], // required for withAuth.js
+    "react/jsx-props-no-spreading": "off",  // required for withAuth.js
+    "react/prop-types": 0, // required for most component files with props-destructuring
+    "arrow-parens": "off",
+    "operator-linebreak": ["error", "after"],
+    "no-case-declarations": "off",
+    "no-continue": "off",
+    "no-trailing-spaces": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "jsx-quotes": ["error", "prefer-single"],
+    "arrow-body-style": ["error", "as-needed"],
+    "no-nested-ternary": "off",
+    "no-underscore-dangle": ["error", { "allow": ["__REDUX_DEVTOOLS_EXTENSION__"]}]
+  },
+  "globals": {
+    "document": false,
+    "fetch": false,
+    "window": false,
+    "localStorage": false,
+    "WebSocket": false,
+    "test": false,
+    "jest": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "expect": false,
+    "navigator": false,
+    "describe": false,
+    "it": false
+  },
+  "env": {
+    "jest": true
+  }
+}
