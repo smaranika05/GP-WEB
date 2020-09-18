@@ -13,12 +13,7 @@ phases:
       - echo Installing source NPM dependencies via yarn...
       - yarn
       - echo NPM dependencies installed!
-      - echo linter--fix started!
-      - yarn lint-fix
-      - echo linter--fix completed!
-      - echo Unit tests started!
-      - yarn test-ci
-      - echo Unit tests completed!
+      
   build:
     commands:
       - echo Build started on `date`
