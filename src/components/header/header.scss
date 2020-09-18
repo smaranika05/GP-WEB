@@ -1,0 +1,36 @@
+.logo {
+  img {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 0%;
+    top: 1%;
+  }
+}
+
+.navi {
+  text-align: right;
+}
+
+.navi ul {
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  float: right;
+}
+
+.navi li {
+  display: inline;
+  padding: 5px 5px;
+}
+
+.navi a {
+  font-weight: normal;
+  padding: 10px 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.navi :hover {
+  color: #5ecd73;
+}

@@ -1,0 +1,25 @@
+.listing {
+  position: absolute;
+  width: 68%;
+  height: 100%;
+  margin-left: 25%;
+
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500%;
+  font-size: 140%;
+
+  color: #393939;
+
+  ul li {
+    list-style-image: url("./../../assets/img/icon.jpg");
+    padding: 5px;
+    text-indent: -0.5em;
+
+    //padding-top: 0%;
+    //position: relative;
+  }
+}

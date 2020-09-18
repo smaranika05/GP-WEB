@@ -1,0 +1,52 @@
+.building {
+  position: absolute;
+  width: 48%;
+  height: 50%;
+  left: 35%;
+  top: 30%;
+  right: 0px;
+}
+
+.descNimg {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 10%;
+  top: 30%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150%;
+  line-height: 16px;
+  p {
+    margin: 1.5%;
+  }
+}
+
+.map {
+  position: absolute;
+  width: 90%;
+  height: 65%;
+  left: 7%;
+  top: 85%;
+}
+
+// @media screen and (min-width: 600px) {
+//   .building {
+//     padding: 100 10;
+//   }
+
+// @media screen and (max-width: 1220px) {
+//   .building {
+//     position: relative;
+//     justify-content: space-evenly;
+
+//     .img_w {
+//       margin-bottom: 400px;
+//       img {
+//         border-radius: 100px;
+//       }
+//     }
+//   }
+// }
+//}

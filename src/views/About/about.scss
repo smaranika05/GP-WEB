@@ -1,0 +1,30 @@
+.image_doc {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 13%;
+  top: 20%;
+  img {
+    width: 150%;
+  }
+}
+
+.content_doc {
+  position: absolute;
+  width: 74%;
+  height: 50%;
+  left: 13%;
+  top: 134%;
+  color: #393939;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 130%;
+
+  //margin-top: 100px;
+  text-align: justify;
+  color: black;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}

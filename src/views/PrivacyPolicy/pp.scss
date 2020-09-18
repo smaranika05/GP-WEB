@@ -1,0 +1,35 @@
+.main_pp {
+  position: absolute;
+  width: 75%;
+  height: 50%;
+  left: 13%;
+  top: 25%;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+
+  ul li {
+    color: black;
+    display: inline-block;
+    list-style: none;
+    padding: 0 0 0 0em;
+    text-indent: -0.3em;
+    position: relative;
+  }
+
+  ul li::before {
+    color: #5ecd73;
+    list-style-type: square;
+    content: "\25AA";
+    font-weight: bold;
+    display: inline-block;
+    font-size: 3em;
+    left: -0.5em;
+    position: absolute;
+    top: 0.4em;
+  }
+}

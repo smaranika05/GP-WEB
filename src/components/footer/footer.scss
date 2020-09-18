@@ -1,0 +1,101 @@
+.main-footer {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: -1px;
+  top: 700%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  //font-size: 16px;
+  color: #7b7b7b;
+  background: #1a1a1a;
+  .logo {
+    img {
+      height: 20%;
+      width: 8%;
+      top: 25%;
+      left: 5%;
+    }
+  }
+
+  .Address {
+    position: absolute;
+    width: 50%;
+
+    left: 43%;
+    top: 25%;
+
+    //font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 130%;
+    //line-height: 26px;
+    color: #7b7b7b;
+    p {
+      margin: 0px;
+    }
+  }
+
+  .one {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 80%;
+    top: 28%;
+    a {
+      font-family: Lato;
+      font-style: none;
+      text-decoration: none;
+      font-weight: normal;
+      font-size: 130;
+      color: #7b7b7b;
+    }
+
+    //line-height: 26px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .border {
+    position: absolute;
+    width: 93%;
+    //height: 0px;
+    left: 3%;
+    top: 80%;
+    border: 1px solid #7b7b7b;
+  }
+  .year {
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    left: 3%;
+    top: 81%;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+
+    color: #7b7b7b;
+  }
+
+  .last {
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 83%;
+    top: 81%;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    // line-height: 18px;
+    /* identical to box height */
+
+    color: #7b7b7b;
+  }
+}
