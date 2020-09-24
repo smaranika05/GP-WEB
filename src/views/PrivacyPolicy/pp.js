@@ -9,7 +9,7 @@ class Policy extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="pp">
         <div className="header">Datenschutzerklärung</div>;
         <div className="border"></div>
         <div className="main_pp">

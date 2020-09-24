@@ -14,9 +14,10 @@
     .logo_footer {
       float: left;
       width: 40%;
-      padding-left: 40px;
+      // padding-left: 40px;
       
       img {
+        
         width: 90px;
         height: 30px;
         padding:50px 0 0 30px;
@@ -24,6 +25,7 @@
       }
     }
     .address {
+      
       float: left;
       width: 40%;
       padding: 10px;
@@ -50,7 +52,7 @@
     // }
   }
   .divider {
-    // margin-left: 40px;
+    margin-left: 40px;
     width: 93%;
     height: 0px;
     border-top: 1px solid #bbb;
@@ -72,17 +74,36 @@
       float: right;
       width: auto;
       padding: 10px;
-      
-      // margin-left: 400px;
+
+      margin-left: 400px;
     }
   }
 }
-@media screen and (max-width:1000px)
+@media screen and (max-width:1400px)
 {
   .footer{
    
     height: 100%;
     // width: 200%;
-    background-size:cover ;
+    .footer_wrap{
+
+    .logo_footer
+    {
+    
+      
+      img{
+       width: 70%;
+       height: 10%;
+       padding:20px 5px 0 20px;
+    }
+    }
+  }
+  }
+  .divider{
+    .end_line{
+      .right{
+        padding-right: 20%;
+      }
+    }
   }
 }

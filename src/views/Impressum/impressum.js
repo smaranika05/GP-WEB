@@ -7,7 +7,7 @@ class Impressum extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="im">
         <div className="header">Impressum</div>;<div className="border"></div>
         <div className="subtitle_imp">
           Impressum - Pflichtangaben nach dem Telemediengesetz (TMG, §5)

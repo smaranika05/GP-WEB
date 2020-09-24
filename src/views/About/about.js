@@ -10,7 +10,7 @@ class About extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="abt">
         <div className="image_doc" name-member="doctor">
           <picture>
            

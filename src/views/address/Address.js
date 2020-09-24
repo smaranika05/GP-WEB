@@ -17,7 +17,7 @@ const location = {
 class Address extends Component {
   render() {
     return (
-      <div>
+      <div className="addr">
         {/* <Container> */}
         <div>
           <h1 className="header"> HIER FINDEN SIE UNS</h1>

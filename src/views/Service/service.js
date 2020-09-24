@@ -11,7 +11,7 @@ class Service extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="ser">
         <div className="header">Leistungsspektrum</div>;
         <div className="border"></div>
         <div className="listing">
