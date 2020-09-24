@@ -29,7 +29,7 @@ import Footer from "./../../components/footer/footer";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="gp">
      <div className="root" id="root"><Root/></div>
     <div className="prax" id="praxisteam">
       <h1>Das Praxisteam</h1>

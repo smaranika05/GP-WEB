@@ -16,7 +16,7 @@ h1 {
       align-items: center;
       float: left;
       width: 55%;
-      padding: 100px;
+       padding-top: 100px;
       // First green button
       .btn_one {
         min-width: max-content;
@@ -104,6 +104,7 @@ h1 {
       flex-direction: column;
       .left_content {
         width: 65%;
+        margin-left: 5%;
         .btn_one {
           width: 250px;
           height: 50px;
@@ -122,5 +123,6 @@ h1 {
     }
     .right_content {
       flex-direction: column;
+      width: auto;
     }
   }
