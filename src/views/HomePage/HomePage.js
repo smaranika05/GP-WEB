@@ -23,13 +23,17 @@ import Contact from "./../../views/address/Address";
 import "./Main.scss";
 // import Header from "./components/header/header";
 
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Footer from "./../../components/footer/footer";
+import Header from "../../components/header/header";
 class App extends Component {
   render() {
     return (
+      
       <div className="gp">
+       
      <div className="root" id="root"><Root/></div>
     <div className="prax" id="praxisteam">
       <h1>Das Praxisteam</h1>

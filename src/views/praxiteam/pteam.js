@@ -27,7 +27,7 @@ class Pteam extends Component {
                 
                 <div className="tm_sub">
                 <div className="team_btn"></div>
-                  <a>
+                  <a id="tm-anc">
                      
                     <Link to="/team">Mehr übers Praxisteam</Link>
                     

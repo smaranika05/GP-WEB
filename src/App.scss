@@ -1,0 +1,72 @@
+.gp{
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+.prax{
+    h1{
+   margin-left: 40%;
+    }
+    padding-top: 100px;
+    height: auto;
+    overflow: hidden;
+}
+.time{
+    padding-top: 100px;
+    height: auto;
+    overflow: hidden;
+    h1{
+        margin-left: 40%;
+      }
+   
+
+
+
+
+
+}
+
+.doct
+{
+
+     padding-top: 120px;
+    h1{
+        margin-left: 40%;
+      }
+}
+.gallery{
+    display: flex;
+    background: url(./assets/img/Wating_Room.png) center center;
+    background-repeat: no-repeat;
+    padding-top: 1000px;
+    
+}
+@media screen and (max-width:1000px)
+{
+    .prax{
+        h1{
+            font-size: 30px;
+           
+          
+        }
+    }
+    .time{
+        h1{
+            font-size: 30px;
+           
+          
+        }
+    }
+    .doct{
+        h1{
+            font-size: 30px;
+           
+          
+        }
+    }
+}

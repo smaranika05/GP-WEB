@@ -1,67 +1,144 @@
 import React from "react";
-import Home from "../../views/HomePage/HomePage";
-import Team from "../../views/Teams/team";
-import Service from "../../views/Service/service";
-import Contact from "../../views/address/Address";
-import About from "../../views/About/about";
-import PP from "../../views/PrivacyPolicy/pp";
-import Imp from "../../views/Impressum/impressum";
+
 import "./header.scss";
 import logo from "./../../assets/img/logo.png";
-import Root from "../../views/Root/Root";
+
 
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class Header extends React.Component {
-  render() {
-    return (
-      <Router>
-        <div className="logo">
-          <picture>
-            <img src={logo} alt="logo" />
-          </picture>
+  constructor(props)
+  {
+  
+      super(props);
+      this.headerNavbar = React.createRef();
+      this.menuWrapper = React.createRef();
+      this.hamburger = React.createRef();
+      this.state = {
+          navLinks: [
+              {
+                  linkName: " Home",
+                  linkAdd: "#root",
+                  active: false
+              },
+              {
+                  linkName: "Praxisteam",
+                  linkAdd: "#praxisteam",
+                  active: false
+              },
+
+              {
+                  linkName: "Sprechzeiten",
+                  linkAdd: "#time",
+                  active: false
+              },
+              {
+                  linkName: "Leistungsspektrum",
+                  linkAdd: "service",
+                  active: false
+              },
+              {
+                linkName: "Kontakt",
+                linkAdd: "Address",
+                active: false
+            },
+              
+          ],
+          scrollCheck: false
+      }
+  }
+
+  handleHamburger = () =>
+  {   
+      if(window.innerWidth < 1000)
+      {
+
+      this.hamburger.current.classList.toggle('open');
+     const submenu = this.menuWrapper.current;
+     if(!submenu.classList.contains('menuWrapper_display'))
+     {
+          submenu.classList.add('menuWrapper_display');
+          setTimeout(function(){
+              submenu.classList.add('menuWrapper_fadein');
+          }, 10);
+     }
+     else
+     {
+         submenu.classList.remove('menuWrapper_fadein');
+         setTimeout(function(){
+             submenu.classList.remove('menuWrapper_display');
+         }, 500);
+     }
+  }
+  }
+
+  componentDidMount()
+  {
+      var prevScrollPos = window.pageYOffset;
+      document.addEventListener('scroll', ()=>{
+          let currentScrollPos = window.pageYOffset;
+          if(this.headerNavbar.current)
+          {
+          if((currentScrollPos > prevScrollPos) && (currentScrollPos > 640))
+          {
+              this.headerNavbar.current.style.top = "-100px";
+              this.hamburger.current.style.top = "-100px";
+          }
+          else{
+              this.headerNavbar.current.style.top = "0px";
+              this.hamburger.current.style.top = "14px";
+          }
+      }
+       prevScrollPos = currentScrollPos;
+      })
+  }
+
+
+  render(){
+      console.log('in header');
+      const navlinks = this.state.navLinks.map((navLink)=>{
+          
+          return(
+          <div className="navLink" onClick={this.handleHamburger}>
+            <a>  <Link smooth to={`/${navLink.linkAdd}`}> {navLink.linkName} </Link></a>
+          </div>
+          );
+      });
+
+  
+      return(
+        <>
+        <div className="menuWrapper" ref={this.menuWrapper}>
+            <div className="linksWrapper">
+            {navlinks}
+          
+            </div>
+            
         </div>
-        <ul className="navi">
-          <Link to="/">
-            <li>
-              <a href="/#room">Home</a>
-            </li>
-          </Link>
+      <div className="header-wrap" ref={this.headerNavbar}>
+         <div className="brandLogo">
+         <Link smooth to="/">
+         <img src={logo} alt="logo" />
 
-          <li>
-            {" "}
-            <a href="/#praxisteam">Praxisteam</a>
-          </li>
 
-          <li>
-            {" "}
-            <a href="/#time">Sprechzeiten</a>
-          </li>
-
-          <li>
-            {" "}
-            <Link to="/service">Leistungsspektrum</Link>
-          </li>
-
-          <li>
-            {" "}
-            <Link to="/Address">Kontakt</Link>
-          </li>
-        </ul>
-
-        <Route exact path="/" component={Home} />
-        <Route exact path="/team" component={Team} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/service" component={Service} />
-        <Route exact path="/Address" component={Contact} />
-        <Route exact path="/privacy" component={PP} />
-        <Route exact path="/Imp" component={Imp} />
-        <Route exact path="/Root" component={Root} />
-        
-        {/* <Route path="" component={}/> */}
-      </Router>
-    );
+</Link>
+         </div>
+       
+         <div className="navLinks">
+             <div className="desktopView">
+             {navlinks}
+             </div>
+             </div>
+      </div>
+      <div ref={this.hamburger} id="hamburger" onClick={this.handleHamburger}> 
+              <span></span>
+              <span></span>
+              <span></span>
+             </div>
+          </>
+      );
   }
 }
 
 export default Header;
+
