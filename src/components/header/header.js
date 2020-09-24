@@ -1,13 +1,15 @@
 import React from "react";
-import Home from "./../../views/HomePage/HomePage";
-import Team from "./../../views/Teams/team";
-import Service from "./../../views/Service/service";
-import Contact from "./../../views/address/Address";
-import About from "./../../views/About/about";
-import PP from "./../../views/PrivacyPolicy/pp";
-import Imp from "./../../views/Impressum/impressum";
+import Home from "../../views/HomePage/HomePage";
+import Team from "../../views/Teams/team";
+import Service from "../../views/Service/service";
+import Contact from "../../views/address/Address";
+import About from "../../views/About/about";
+import PP from "../../views/PrivacyPolicy/pp";
+import Imp from "../../views/Impressum/impressum";
 import "./header.scss";
 import logo from "./../../assets/img/logo.png";
+import Root from "../../views/Root/Root";
+
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class Header extends React.Component {
@@ -22,18 +24,18 @@ class Header extends React.Component {
         <ul className="navi">
           <Link to="/">
             <li>
-              <a href="#room">Home</a>
+              <a href="/#room">Home</a>
             </li>
           </Link>
 
           <li>
             {" "}
-            <a href="#team">Praxisteam</a>
+            <a href="/#praxisteam">Praxisteam</a>
           </li>
 
           <li>
             {" "}
-            <a href="#timing">Sprechzeiten</a>
+            <a href="/#time">Sprechzeiten</a>
           </li>
 
           <li>
@@ -54,6 +56,8 @@ class Header extends React.Component {
         <Route exact path="/Address" component={Contact} />
         <Route exact path="/privacy" component={PP} />
         <Route exact path="/Imp" component={Imp} />
+        <Route exact path="/Root" component={Root} />
+        
         {/* <Route path="" component={}/> */}
       </Router>
     );

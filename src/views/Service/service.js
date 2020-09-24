@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import "./service.scss";
 import "./../../views/Heading.scss";
+import Footer from "../../components/footer/footer";
+
 
 class Service extends Component {
   componentDidMount = () => {
@@ -31,6 +33,7 @@ class Service extends Component {
             <li>Atteste und Gutachten</li>
           </ul>
         </div>
+        <Footer/>
       </div>
     );
   }

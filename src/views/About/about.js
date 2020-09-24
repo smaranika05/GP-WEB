@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import doctor from "./../../assets/img/ultrasound.jpg";
-
+import Footer from "./../../components/footer/footer";
 import "./about.scss";
 
 class About extends Component {
@@ -13,7 +13,7 @@ class About extends Component {
       <div>
         <div className="image_doc" name-member="doctor">
           <picture>
-            <source srcset={doctor} type="image/webp" />
+           
             <img src={doctor} alt="doctor" />
           </picture>
         </div>
@@ -45,6 +45,7 @@ class About extends Component {
             an.
           </p>
         </div>
+        <Footer/>
       </div>
     );
   }

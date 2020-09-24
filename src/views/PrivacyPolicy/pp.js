@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "./pp.scss";
 //import "./../../views/Heading.scss";
+import Footer from "./../../components/footer/footer";
 class Policy extends Component {
   componentDidMount = () => {
     window.scrollTo(0, 0);
@@ -364,6 +365,7 @@ class Policy extends Component {
             </li>
           </ul>
         </div>
+       
       </div>
     );
   }

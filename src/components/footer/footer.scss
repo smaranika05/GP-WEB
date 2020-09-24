@@ -1,101 +1,87 @@
-.main-footer {
-  position: absolute;
-  width: 100%;
-  height: 40%;
-  left: -1px;
-  top: 700%;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  //font-size: 16px;
-  color: #7b7b7b;
-  background: #1a1a1a;
-  .logo {
-    img {
-      height: 20%;
-      width: 8%;
-      top: 25%;
-      left: 5%;
-    }
-  }
-
-  .Address {
-    position: absolute;
-    width: 50%;
-
-    left: 43%;
-    top: 25%;
-
-    //font-family: Lato;
+.footer {
+  
+  color: #7B7B7B;
+  background: #1A1A1A;
+  .footer_wrap {
+    box-sizing: border-box;
+    display: flex;
+    font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 130%;
-    //line-height: 26px;
-    color: #7b7b7b;
-    p {
-      margin: 0px;
+    font-size: 16px;
+    color: #7B7B7B;
+    background: #1A1A1A;
+    .logo_footer {
+      float: left;
+      width: 40%;
+      padding-left: 40px;
+      
+      img {
+        width: 90px;
+        height: 30px;
+        padding:50px 0 0 30px;
+       
+      }
     }
+    .address {
+      float: left;
+      width: 40%;
+      padding: 10px;
+      //height: 300px;
+    }
+    .links {
+      float: left;
+      width: auto;
+      padding: 10px;
+      a {
+        font-family: Lato;
+        font-style: none;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 130;
+        color: #7B7B7B;
+      }
+      // height: 300px;
+    }
+    // .row:after {
+    //   content: "";
+    //   display: table;
+    //   clear: both;
+    // }
   }
-
-  .one {
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    left: 80%;
-    top: 28%;
-    a {
-      font-family: Lato;
-      font-style: none;
-      text-decoration: none;
-      font-weight: normal;
-      font-size: 130;
-      color: #7b7b7b;
-    }
-
-    //line-height: 26px;
-
-    p {
-      margin: 0;
-    }
-  }
-
-  .border {
-    position: absolute;
+  .divider {
+    margin-left: 40px;
     width: 93%;
-    //height: 0px;
-    left: 3%;
-    top: 80%;
-    border: 1px solid #7b7b7b;
+    height: 0px;
+    border-top: 1px solid #bbb;
   }
-  .year {
-    position: absolute;
-    width: 30%;
-    height: 10%;
-    left: 3%;
-    top: 81%;
-
+  .end_line {
+    box-sizing: border-box;
+    display: flex;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 100%;
-
-    color: #7b7b7b;
+    font-size: 16px;
+    .left {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      margin-left: 25px;
+    }
+    .right {
+      float: right;
+      width: auto;
+      padding: 10px;
+      margin-left: 400px;
+    }
   }
-
-  .last {
-    position: absolute;
-    width: 15%;
-    height: 10%;
-    left: 83%;
-    top: 81%;
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100%;
-    // line-height: 18px;
-    /* identical to box height */
-
-    color: #7b7b7b;
+}
+@media screen and (max-width:1000px)
+{
+  .footer{
+   
+    height: 100%;
+    // width: 200%;
+    background-size:cover ;
   }
 }

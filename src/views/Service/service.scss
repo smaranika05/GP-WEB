@@ -1,7 +1,7 @@
 .listing {
-  position: absolute;
+  
   width: 68%;
-  height: 100%;
+  
   margin-left: 25%;
 
   line-height: 1.5;
@@ -14,12 +14,19 @@
 
   color: #393939;
 
-  ul li {
+  ul 
+  {
+
+    
+    li {
     list-style-image: url("./../../assets/img/icon.jpg");
-    padding: 5px;
+    
     text-indent: -0.5em;
+    
 
     //padding-top: 0%;
     //position: relative;
   }
+ 
+}
 }

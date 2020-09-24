@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import building from "./../../assets/img/building.jpg";
 
 import MapSection from "./Map";
+import Footer from "./../../components/footer/footer";
 
 import "./Address.scss";
 import "./../../views/Heading.scss";
@@ -21,7 +22,7 @@ class Address extends Component {
         <div>
           <h1 className="header"> HIER FINDEN SIE UNS</h1>
           <div className="border"></div>
-
+          <div className="address">
           <div className="descNimg">
             <p style={{ color: "#5ECD73" }}>Praxisbezeichnung</p>
             <p>Praxis Dr. Dettner</p>
@@ -48,20 +49,23 @@ class Address extends Component {
             <p style={{ color: "#5ECD73" }}>E-Mail-Adresse</p>
             <p>praxisdrdettner@t-online.de</p>
           </div>
-
-          <div>
-            <div className="building" name-member="building">
+          <div className="building" name-member="building">
               <picture>
-                <source srcset={building} type="image/webp" />
+                
                 <img src={building} alt="building" />
               </picture>
             </div>
           </div>
+      
         </div>
+
+         
+            
 
         <div className="map">
           <MapSection location={location} zoomLevel={17} />
         </div>
+        <Footer/>
 
         {/* </Container> */}
       </div>

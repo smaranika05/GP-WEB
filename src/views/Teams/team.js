@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
 import image from "./../../assets/img/image.png";
-
+import { Container } from "@material-ui/core";
 import "./team.scss";
+import Footer from "./../../components/footer/footer";
 import "./../../views/Heading.scss";
 class Team extends Component {
   componentDidMount = () => {
@@ -10,14 +11,13 @@ class Team extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="teams_main">
         <div className="header">Das Praxisteam</div>;
         <div className="border"></div>
         <div>
-          <div className="image_team" name-member="teams">
+          <div className="image_team">
             <picture>
-              <source srcset={image} type="image/webp" />
-              <img src={image} alt="building" />
+              <img src={image} alt="teams " />
             </picture>
           </div>
 
@@ -39,6 +39,7 @@ class Team extends Component {
             </ul>
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }

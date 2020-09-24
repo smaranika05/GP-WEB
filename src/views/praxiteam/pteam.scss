@@ -1,0 +1,74 @@
+
+  
+  .praxisteam {
+    background-image: url("./../../assets/img/Doc_team.png");
+    background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+    
+    
+  
+   
+  
+    .team_scroll_text {
+        justify-self: center;
+    align-self: center;
+    width: 50%;
+      .tm_head {
+        // position: absolute;
+        // width: 50%;
+        height: 20%;
+        // left: 31%;
+        // top: 23%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 400%;
+        color: #ffffff;
+      }
+      .tm_content {
+        // position: absolute;
+        // width: 45%;
+        height: 20%;
+        // left: 32%;
+        // top: 31%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 120%;
+        color: #ffffff;
+      }
+  
+      .tm_sub {
+        // position: absolute;
+        display: flex;
+        align-items: center;
+        // left: 35%;
+        // top: 38%;
+        .team_btn {
+     
+            width: 27px;
+            height: 27px;
+            background: #5ecd73;
+            background-image: url(./../../assets/img/Vector_two.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            border: none;
+            color: white;
+            display: inline-block;
+            margin: 0.5% 1%;
+            border-radius: 50%;
+        }
+        a {
+          font-family: Lato;
+          font-style: normal;
+          font-size: 100%;
+          color: #5ecd73;
+        }
+      }
+  
+         
+    }
+  }

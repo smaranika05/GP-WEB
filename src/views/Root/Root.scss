@@ -1,0 +1,126 @@
+h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    color: #393939;
+  }
+  
+  // root section
+  .doctorRoom {
+    // width: 100%;
+    display: flex;
+    // Left container
+    .left_content {
+      padding-left: 10%;
+      align-items: center;
+      float: left;
+      width: 55%;
+      padding: 100px;
+      // First green button
+      .btn_one {
+        min-width: max-content;
+        max-width: max-content;
+        // height: 5%;
+        border-radius: 75px;
+        background: #5ecd73;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: center;
+        //Text
+        .btn_txt_one {
+          min-width: max-content;
+          margin: 14px 4px 14px 19px;
+          font-family: Lato;
+          font-style: normal;
+          font-size: 110%;
+          color: #ffffff;
+        }
+        //whit button
+        .btn_one_in {
+          background-image: url("./../../assets//img//Vector.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 6%;
+          background-color: #ffffff;
+          border: none;
+          color: white;
+          // display: inline-block;
+          // margin: 2% 82%;
+          cursor: pointer;
+          border-radius: 50%;
+        }
+      }
+      .btn_two {
+        min-width: max-content;
+        max-width: max-content;
+        // height: 5%;
+        border-radius: 75px;
+        background: #5ecd73;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: center;
+        //Text
+        .btn_txt_two {
+          min-width: max-content;
+          margin: 14px 4px 14px 19px;
+          font-family: Lato;
+          font-style: normal;
+          font-size: 110%;
+          color: #ffffff;
+        }
+        //whit button
+        .btn_two_in {
+          background-image: url("./../../assets//img//Vector.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 5%;
+          background-color: #ffffff;
+          border: none;
+          color: white;
+          // display: inline-block;
+          // margin: 2% 82%;
+          cursor: pointer;
+          border-radius: 50%;
+        }
+      }
+    }
+    .right_content {
+      display: flex;
+      float: left;
+      width: 62%;
+      align-self: flex-end;
+      img {
+        align-self: flex-end;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .doctorRoom {
+      width: 100%;
+      flex-direction: column;
+      .left_content {
+        width: 65%;
+        .btn_one {
+          width: 250px;
+          height: 50px;
+          .btn_txt_one {
+            font-size: 100%;
+          }
+        }
+        .btn_two {
+          width: 350px;
+          height: 50px;
+          .btn_txt_two {
+            font-size: 100%;
+          }
+        }
+      }
+    }
+    .right_content {
+      flex-direction: column;
+    }
+  }
