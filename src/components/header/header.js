@@ -95,7 +95,7 @@ class Header extends React.Component {
 
 
   render(){
-      console.log('in header');
+      
       const navlinks = this.state.navLinks.map((navLink)=>{
           
           return(

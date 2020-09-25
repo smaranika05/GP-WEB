@@ -1,5 +1,5 @@
 import React from "react";
-import logo1 from "./../../assets/img/logo_1.png";
+import logo3 from "./../../assets/img/logo3.png";
 import "./footer.scss";
 import logo2 from "./../../assets/img/logo2.png";
 import PP from "./../../views/PrivacyPolicy/pp";
@@ -10,7 +10,7 @@ function Footer() {
     <div className="footer">
       <div class="footer_wrap">
         <div class="logo_footer">
-          <img src={logo2} alt="logo" />
+          <img src={logo3} alt="logo" />
         </div>
         <div class="address">
           <p>Kissinger Straße 42</p>
@@ -31,7 +31,7 @@ function Footer() {
             </a>
           </p>
           <Route exact path="/Imp" component={Imp} />
-          <p>Absichtserklärung</p>
+         
         </div>
       </div>
       <div className="divider"></div>

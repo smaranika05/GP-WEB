@@ -20,29 +20,23 @@ class About extends Component {
 
         <div className="content_doc">
           <p>
-            Im Jahr 1974 erlangte Ottmar Dettner sein Abitur und studierte
-            nachfolgend Medizin in Marburg. Er promovierte in Würzburg, seine
-            Doktorarbeit ging über die Parkinson-Krankheit. Nach Tätigkeiten im
-            Bereich der Inneren Medizin und Neurologie schloss er 1992 die
-            Weiterbildung zum Facharzt der Allgemeinmedizin ab. Ein Jahr später
-            ließ er sich als Allgemeinarzt (Hausarzt) in Hammelburg, in der
-            Kissinger Str. 42, nieder, wo er nach wie vor mit Freude
-            praktiziert.
+          Im Jahr 1974 erlangte Ottmar Dettner sein Abitur und studierte nachfolgend Medizin in Marburg. Er promovierte in Würzburg, seine Doktorarbeit ging über die Parkinson-Krankheit. Nach Tätigkeiten im Bereich der Inneren Medizin und Neurologie schloss er 1992 die Weiterbildung zum Facharzt der Allgemeinmedizin ab. Ein Jahr später ließ er sich als Allgemeinarzt (Hausarzt) in Hammelburg, in der Kissinger Str. 42, nieder, wo er nach wie vor mit Freude praktiziert.
+
           </p>
           <p>
             Da Dr. med. Dettner auch nicht jünger wird, würde er sich über eine
             Nachfolgerin oder einen Nachfolger freuen.<br></br>
             Sie sind Allgemeinärztin oder Allgemeinarzt?
-            <br></br>
-            Herrn Dr. med. Dettner stünde ggf. bereit, die Praxis mit Ihnen in
-            einer Übergangsphase gemeinsam zu unterhalten, bevor diese von Ihnen
-            übernommen wird.
+            
+Dr. med. Dettner würde sich über eine Kollegin oder einen Kollegen freuen, die / der sich mit ihm und unserem Team zusammen um das Wohlergehen unserer PatientINNEN kümmert.
+
           </p>
           <p>
-            Sollte eine mögliche Nachfolge Ihr Interesse wecken, so melden Sie
-            sich bitte unter ottmar.dettner@t-online.de , Herr Dettners privater
-            E-Mail-Adresse. Idealerweise geben Sie Ihre private Rufnummer mit
-            an.
+          Sie sind Allgemeinärztin oder Allgemeinarzt und haben Interesse daran, sich mit Herrn Dr. med. Dettner zusammenzuschließen?
+
+          </p>
+          <p>
+          So melden Sie sich bitte unter ottmar.dettner@t-online.de, der privaten E-Mail-Adresse von Dr. med. Dettner. Idealerweise geben Sie bei Ihrer Kontaktaufnahme Ihre private 
           </p>
         </div>
         <Footer/>

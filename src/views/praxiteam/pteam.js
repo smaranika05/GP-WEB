@@ -1,47 +1,106 @@
 import React, { Component } from "react";
-import ScrollItem from "./../opacity/index";
-import "./pteam.scss";
-import Team from "./../Teams/team";
-import Teamimg from "./../../assets/img/Doc_team.png";
-
-
-import { Container } from "@material-ui/core";
+import styled from "@emotion/styled/macro";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-class Pteam extends Component {
-    render(){
-    return(
-        <>
+import image from "./../../assets/img/Doc_team.png";
+import "./pteam.scss";
+const Hover = styled.div({
+  opacity: 0,
+  transition: "opacity 350ms ease",
+  paddingLeft: "30%",
+  paddingTop:"10%",
+});
+
+const DisplayOver = styled.div({
+  height: "100%",
+  left: "0",
+  // position: "absolute",
+  top: "0",
+  width: "100%",
+  zIndex: 2,
+  transition: "background-color 350ms ease",
+  backgroundColor: "transparent",
+  //padding: "20px 20px 0 20px",
+  boxSizing: "border-box",
+});
+
+const SubTitle = styled.h4({
+  transform: "translate3d(0,20px,0)",
+  transition: "transform 350ms ease",
+});
+
+const Paragraph = styled.p({
+  transform: "translate3d(0,50px,0)",
+  transition: "transform 350ms ease",
+});
+
+const Background = styled.div({
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+  width: "300px",
+  height: "100vh",
+  color: "#FFF",
+  // position: "relative",
+  width: "max-width",
+  //   height: "350px",
+
+  cursor: "pointer",
+  //backgroundImage: "url(./../../assets/img/individual_pic.jpg)",
+  [`:hover ${DisplayOver}`]: {
+    backgroundColor: "rgba(0,0,0,.7)",
+  },
+  [`:hover ${SubTitle}, :hover ${Paragraph}`]: {
+    transform: "translate3d(0,0,0)",
+  },
+  [`:hover ${Hover}`]: {
+    opacity: 1,
+  },
+});
+
+// const CTA = styled.a({
+//   position: "absolute",
+//   fontfamily: "Lato",
+//   fontstyle: "normal",
+//   fontsize: "100%",
+//   color: "#5ecd73",
+//   to:''
+//});
+
+class Hover_img extends Component {
+  render() {
+    return (
+      <div className="Hover_img">
+        <Background style={{ backgroundImage: `url(${image})` }}>
+          <DisplayOver>
+            <Hover>
+              <div className="doc_scroll_text">
+                <SubTitle>
+                  <p className="doc_head">Unser Praxisteam</p>
+                </SubTitle>
+                <Paragraph>
+                  <p className="doc_content">
+                  Wir haben die Allgemeinarztpraxis Dr. med. Dettner im Jahre 1993 gegründet. Bis heute liegt es uns am Herzen, dass unsere Patientinne optimal versorgt werden. Uns ist es wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
 
 
-<div className="praxisteam">
-  
-            <ScrollItem>
-              <div className="team_scroll_text">
-                <div className="tm_head">Unser Praxisteam</div>
-                <div className="tm_content">
-                  Wir haben die Allgemeinarztpraxis Dr. med. Dettner im Jahre
-                  1993 gegründet. Bis heute liegt es uns am Herzen, dass unsere
-                  PatientINNEN optimal versorgt werden. Uns ist es wichtig, dass
-                  Sie sich bei uns gut aufgehoben fühlen.
+                  </p>
+                </Paragraph>
+                <div className="doc_sub">
+                  <div className="doc_btn"></div>
+                  
+                    <a>
+                      <Link to="/Team">
+                      Mehr übers Praxisteam
+                      </Link>
+                    </a>
+                  
                 </div>
-                
-                <div className="tm_sub">
-                <div className="team_btn"></div>
-                  <a id="tm-anc">
-                     
-                    <Link to="/team">Mehr übers Praxisteam</Link>
-                    
-                    
-                  </a>
-                </div>
-                
               </div>
-            </ScrollItem>
-           
-          </div>
-          
-</>
+            </Hover>
+          </DisplayOver>
+        </Background>
+      </div>
     );
+  }
 }
-}
-export default Pteam;
+
+export default Hover_img;

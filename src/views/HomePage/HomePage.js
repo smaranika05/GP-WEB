@@ -4,7 +4,7 @@ import ScrollItem from "./../opacity/index";
 import docroom from "./../../assets/img/header-bg.jpg";
 import docteam from "./../../assets/img/Doc_team.png";
 import doctor from "./../../assets/img/individual_pic.jpg";
-import waiting from "./../../assets/img/Wating_Room.png";
+
 import vector from "./../../assets/img/Vector.png";
 import Team from "./../../views/Teams/team";
 import Home from "./../../views/HomePage/HomePage";
@@ -12,7 +12,7 @@ import About from "./../../views/About/about";
 import Pteam from "./../../views/praxiteam/pteam";
 
 import { Container } from "@material-ui/core";
-
+import Gallery from "./../gallery/Gallery";
 import Time from "./../../views/Time/time";
 import Root from "./../../views/Root/Root";
 import Doctor from "./../../views/Doctor/doctor";
@@ -40,14 +40,16 @@ class App extends Component {
         <Pteam/></div>
       
       <div className="time" id="time">
-        <h1>Sprechzeitens</h1>
+        <h1>Sprechzeiten</h1>
         <Time/></div>
       
      
    <div className="doct">
      <h1>Dr. med. Ottmar Dettner</h1>
       <Doctor/></div>
-      <div className="gallery">
+     <div className="gallery">
+       <h1>Praxisräumlichkeiten</h1>
+     <br></br><Gallery/>
         </div>
         <Footer/> 
         </div>

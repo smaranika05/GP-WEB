@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import docroom from "./../../assets/img/header-bg.jpg";
+import docroom from "./../../assets/img/x.png";
 
 import "./Root.scss";
 class Root extends Component {
@@ -14,20 +14,22 @@ class Root extends Component {
               <br></br>Dettner, uns um das gesundheitliche Wohl unserer
               Patientinnen.
             </p>
-            <div className="btn_one">
+            <a className="btn_one" href="#praxisteam">
               <div className="btn_txt_one">Erfahren Sie mehr über uns.</div>
 
               
-                <a className="btn_one_in" href="#praxisteam"></a>
+                <div className="btn_one_in" href="#praxisteam"></div>
+
              
-            </div>
+            </a>
+
             <br></br>
-            <div className="btn_two">
+            <a className="btn_two" href="/service">
               <div className="btn_txt_two">
                 Leistungen, die wir für Sie anbieten.
               </div>
-              <a className="btn_two_in" href="/service"></a>
-            </div>
+              <div className="btn_two_in" ></div>
+            </a>
           </div>
           <div className="right_content">
             <img src={docroom} alt="docroom" />

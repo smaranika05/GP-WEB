@@ -12,6 +12,7 @@ import Imp from "./views/Impressum/impressum";
 import Pteam from "./views/praxiteam/pteam";
 import Doctor from "./views/Doctor/doctor";
 import Time from "./views/Time/time";
+import Gallery from "./views/gallery/Gallery";
 
 
 
@@ -24,9 +25,10 @@ import Header from "./components/header/header";
 class App extends Component {
   render() {
     return(
+      
     
     
-    <Router>
+   <Router>
       <Header/>
      <Route exact path="/" component={Home} />
         <Route exact path="/team" component={Team} />
@@ -36,7 +38,8 @@ class App extends Component {
         <Route exact path="/privacy" component={PP} />
         <Route exact path="/Imp" component={Imp} />
         <Route exact path="/Root" component={Root} />
-        </Router>
+        <Route exact path="/Gallery" component={Gallery}/>
+        </Router> 
     );
     
   }

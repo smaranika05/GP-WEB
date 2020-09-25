@@ -27,13 +27,13 @@ class Team extends Component {
               Mit unseren PatientINNEN sowie untereinander pflegen wir einen
               vertrauensvollen, von Aufmerksamkeit und Respekt geprägten Umgang.
               Das Praxisteam besteht seit 2007 in der jetzigen Konstellation.
-              Unsere PatientINNEN wissen unser eingespieltes Team zu schätzen
+              Unsere Patientinnen wissen unser eingespieltes Team zu schätzen
               (von links nach rechts)
             </p>
             <ul className="content_list">
               <li>Gabi Schulz, Arzthelferin. Im Praxisteam seit 1996.</li>
 
-              <li>Dr. Ottmar Dettner, Allgemeinarzt. Zur Person→</li>
+              <li>Dr. Ottmar Dettner, Allgemeinarzt. <a href="/About">Zum Profil→</a></li>
               <li>Ute Dettner, Krankenschwester. Im Praxisteam seit 1993.</li>
               <li>Conny Stähr, Arzthelferin. Im Praxisteam seit 2006.</li>
               <li>Sandra Zimmermann, Arzthelferin. Im Praxisteam seit 2007.</li>

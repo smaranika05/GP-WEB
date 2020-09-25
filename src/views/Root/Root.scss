@@ -11,12 +11,16 @@ h1 {
     // width: 100%;
     display: flex;
     // Left container
+    
     .left_content {
       padding-left: 10%;
       align-items: center;
       float: left;
       width: 55%;
-       padding-top: 100px;
+       padding-top: 150px;
+       a{
+         text-decoration: none;
+       }
       // First green button
       .btn_one {
         min-width: max-content;
@@ -90,10 +94,14 @@ h1 {
     .right_content {
       display: flex;
       float: left;
-      width: 62%;
+      width: 55%;
+     
       align-self: flex-end;
       img {
         align-self: flex-end;
+        width: 100%;
+        height: 60%;
+       
       }
     }
   }
