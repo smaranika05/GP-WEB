@@ -1,14 +1,10 @@
-.ser{
+.ser {
   overflow-x: hidden;
 }
 
-
 .listing {
-  
   width: 68%;
-  
   margin-left: 25%;
-
   line-height: 1.5;
   font-weight: 600;
   letter-spacing: 1px;
@@ -16,22 +12,13 @@
   font-style: normal;
   font-weight: 500%;
   font-size: 120%;
-
   color: #393939;
 
-  ul 
-  {
-
-    
+  ul {
     li {
-  list-style-image: url("./../../assets/img/greek 2.png") ;
-    list-style-position: center;
-    text-indent: -0.5em;
-    
-
-    //padding-top: 0%;
-    //position: relative;
+      list-style-image: url("./../../assets/img/greek 2.png");
+      list-style-position: center;
+      text-indent: -0.5em;
+    }
   }
- 
-}
 }

@@ -1,114 +1,69 @@
-
-.gp{
-    overflow-x: hidden;
+.gp {
+  overflow-x: hidden;
 }
 
-
-
-
-
-
-
-.prax{
-    h1{
-   margin-left: 35%;
-    }
-    padding-top: 100px;
-    height: auto;
-    overflow: hidden;
+.prax {
+  h1 {
+    text-align: center;
+  }
+  padding-top: 100px;
+  height: auto;
+  overflow: hidden;
 }
-.time{
-    padding-top: 100px;
-    height: auto;
-    overflow: hidden;
-    h1{
-        margin-left: 40%;
-      }
-   
-
-
-
-
-
+.time {
+  padding-top: 100px;
+  height: auto;
+  overflow: hidden;
+  h1 {
+    text-align: center;
+  }
 }
 
-.doct
-{
-
-     padding-top: 120px;
-     overflow: hidden;
-    h1{
-        margin-left: 35%;
-      }
+.doct {
+  padding-top: 120px;
+  overflow: hidden;
+  h1 {
+    text-align: center;
+  }
 }
-.gallery{
-    // h1{
-    //     padding-top: 80px;
-    // }
-    overflow: hidden;
-    padding-top: 150px;
-    padding-bottom: 50px;
-    h1{
-        margin-left: 35%;
-    }
-    
+.gallery {
+  // h1{
+  //     padding-top: 80px;
+  // }
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  h1 {
+    text-align: center;
+  }
 }
 
-
-
-
-
-@media screen and (max-width:1000px)
-{
-    .prax{
-        h1{
-
-            margin-left: 22%;
-            font-size: 30px;
-           
-          
-        }
+@media screen and (max-width: 1000px) {
+  .prax {
+    h1 {
+      text-align: center;
+      font-size: 30px;
     }
-    .time{
-        h1{margin-left: 22%;
-            font-size: 30px;
-           
-          
-        }
+  }
+  .time {
+    h1 {
+      text-align: center;
+      font-size: 30px;
     }
-    .doct{
-        h1{margin-left: 22%;
-            font-size: 30px;
-           
-          
-        }
+  }
+  .doct {
+    h1 {
+      text-align: center;
+      font-size: 30px;
     }
-    .gallery{
-
-        
-        h1{margin-left: 22%;
-            font-size: 30px;
-        }
+  }
+  .gallery {
+    h1 {
+      text-align: center;
+      font-size: 30px;
     }
+  }
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // h1 {
 //     font-family: Lato;
@@ -117,14 +72,14 @@
 //     font-size: 55px;
 //     color: #393939;
 //   }
-  
+
 //   // root section
 //   .doctorRoom {
 //     width: 100%;
 //     display: flex;
 //     // Left container
 //     .left_content {
-     
+
 //       float: left;
 //       width: 38%;
 //       // First green button
@@ -207,7 +162,7 @@
 //       }
 //     }
 //   }
-  
+
 //   @media screen and (max-width: 1000px) {
 //     .doctorRoom {
 //       width: 100%;
@@ -234,43 +189,6 @@
 //       flex-direction: column;
 //     }
 //   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // h1 {
 //   font-family: Lato;

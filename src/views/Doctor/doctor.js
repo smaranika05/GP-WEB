@@ -7,7 +7,7 @@ const Hover = styled.div({
   opacity: 0,
   transition: "opacity 350ms ease",
   paddingLeft: "30%",
-  paddingTop:"10%",
+  paddingTop: "10%",
 });
 
 const DisplayOver = styled.div({
@@ -44,7 +44,6 @@ const Background = styled.div({
   width: "max-width",
   //   height: "350px",
 
-  cursor: "pointer",
   //backgroundImage: "url(./../../assets/img/individual_pic.jpg)",
   [`:hover ${DisplayOver}`]: {
     backgroundColor: "rgba(0,0,0,.7)",
@@ -86,13 +85,10 @@ class Hover_img extends Component {
                 </Paragraph>
                 <div className="doc_sub">
                   <div className="doc_btn"></div>
-                  
-                    <a>
-                      <Link to="/About">
-                        Zum Artzprofil
-                      </Link>
-                    </a>
-                  
+
+                  <a>
+                    <Link to="/About">Zum Artzprofil</Link>
+                  </a>
                 </div>
               </div>
             </Hover>

@@ -10,7 +10,7 @@ class Policy extends Component {
   render() {
     return (
       <div className="pp">
-        <div className="header">Datenschutzerklärung</div>;
+        <div className="header">Datenschutzerklärung</div>
         <div className="border"></div>
         <div className="main_pp">
           <p>
@@ -365,7 +365,6 @@ class Policy extends Component {
             </li>
           </ul>
         </div>
-       
       </div>
     );
   }

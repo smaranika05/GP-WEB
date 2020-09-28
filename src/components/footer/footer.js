@@ -31,7 +31,6 @@ function Footer() {
             </a>
           </p>
           <Route exact path="/Imp" component={Imp} />
-         
         </div>
       </div>
       <div className="divider"></div>

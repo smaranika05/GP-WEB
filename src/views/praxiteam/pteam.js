@@ -7,7 +7,7 @@ const Hover = styled.div({
   opacity: 0,
   transition: "opacity 350ms ease",
   paddingLeft: "30%",
-  paddingTop:"10%",
+  paddingTop: "10%",
 });
 
 const DisplayOver = styled.div({
@@ -44,7 +44,6 @@ const Background = styled.div({
   width: "max-width",
   //   height: "350px",
 
-  cursor: "pointer",
   //backgroundImage: "url(./../../assets/img/individual_pic.jpg)",
   [`:hover ${DisplayOver}`]: {
     backgroundColor: "rgba(0,0,0,.7)",
@@ -79,20 +78,18 @@ class Hover_img extends Component {
                 </SubTitle>
                 <Paragraph>
                   <p className="doc_content">
-                  Wir haben die Allgemeinarztpraxis Dr. med. Dettner im Jahre 1993 gegründet. Bis heute liegt es uns am Herzen, dass unsere Patientinne optimal versorgt werden. Uns ist es wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
-
-
+                    Wir haben die Allgemeinarztpraxis Dr. med. Dettner im Jahre
+                    1993 gegründet. Bis heute liegt es uns am Herzen, dass
+                    unsere Patientinne optimal versorgt werden. Uns ist es
+                    wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
                   </p>
                 </Paragraph>
                 <div className="doc_sub">
                   <div className="doc_btn"></div>
-                  
-                    <a>
-                      <Link to="/Team">
-                      Mehr übers Praxisteam
-                      </Link>
-                    </a>
-                  
+
+                  <a>
+                    <Link to="/Team">Mehr übers Praxisteam</Link>
+                  </a>
                 </div>
               </div>
             </Hover>

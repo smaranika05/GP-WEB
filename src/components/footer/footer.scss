@@ -1,7 +1,6 @@
 .footer {
-  
-  color: #7B7B7B;
-  background: #1A1A1A;
+  color: #7b7b7b;
+  background: #1a1a1a;
   .footer_wrap {
     box-sizing: border-box;
     display: flex;
@@ -9,23 +8,20 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: #7B7B7B;
-    background: #1A1A1A;
+    color: #7b7b7b;
+    background: #1a1a1a;
     .logo_footer {
       float: left;
       width: 40%;
       // padding-left: 40px;
-      
+
       img {
-        
-        width: 90px;
-        height: 30px;
-        padding:50px 0 0 30px;
-       
+        width: 100px;
+        //height: 50px;
+        padding: 50px 0 0 30px;
       }
     }
     .address {
-      
       float: left;
       width: 40%;
       padding: 10px;
@@ -41,7 +37,7 @@
         text-decoration: none;
         font-weight: normal;
         font-size: 130;
-        color: #7B7B7B;
+        color: #7b7b7b;
       }
       // height: 300px;
     }
@@ -79,29 +75,45 @@
     }
   }
 }
-@media screen and (max-width:900px)
-{
-  .footer{
-   
+@media screen and (max-width: 900px) {
+  .footer {
     height: 100%;
     // width: 200%;
-    .footer_wrap{
-
-    .logo_footer
-    {
-    
-      
-      img{
-       width: 70%;
-       height: 10%;
-       padding:20px 5px 0 20px;
-    }
+    .footer_wrap {
+      .logo_footer {
+        img {
+          width: 70%;
+          //height: 10%;
+          padding: 20px 5px 0 20px;
+        }
+      }
     }
   }
+  .divider {
+    .end_line {
+      .right {
+        padding-right: 20%;
+      }
+    }
   }
-  .divider{
-    .end_line{
-      .right{
+}
+@media screen and (max-width: 1000px) {
+  .footer {
+    height: 100%;
+    // width: 200%;
+    .footer_wrap {
+      .logo_footer {
+        img {
+          width: 30%;
+          // height: 30%;
+          padding: 20px 5px 0 20px;
+        }
+      }
+    }
+  }
+  .divider {
+    .end_line {
+      .right {
         padding-right: 20%;
       }
     }
