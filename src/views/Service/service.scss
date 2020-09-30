@@ -14,11 +14,17 @@
   font-size: 120%;
   color: #393939;
 
-  ul {
-    li {
-      list-style-image: url("./../../assets/img/greek 2.png");
-      list-style-position: center;
-      text-indent: -0.5em;
-    }
+  ul li {
+    list-style-image: url("./../../assets/img/greek 2.png");
+    list-style-position: center;
+    text-indent: -0.5em;
+  }
+  ul li::before {
+    display: inline-block;
+    font-size: 3em;
+    position: absolute;
+    left: -0.5em;
+
+    top: 0.4em;
   }
 }

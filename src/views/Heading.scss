@@ -10,25 +10,33 @@
 }
 
 .border {
- margin-left: 20%;
+  margin-left: 20%;
+  align-content: center;
   width: 60%;
   height: 0px;
-  left: 11%;
-  top: 150px;
+  //left: 11%;
+  // top: 150px;
   bottom: 100px;
   border: 1px solid #bcbcbc;
 }
-@media screen and (max-width:1147px)
-{
-  .border
-  {
-    width: 60%;
-    padding-left: 80px;
-
+@media screen and (max-width: 1147px) {
+  .border {
+    width: 40%;
+    margin-left: 30%;
   }
-  .header
-  {
+  .header {
     align-items: center;
-    font-size: 25PX;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .border {
+    width: 60%;
+    margin-left: 15%;
+  }
+  .header {
+    align-items: center;
+    font-size: 20px;
   }
 }

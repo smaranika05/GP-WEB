@@ -2,9 +2,11 @@ import React from "react";
 import logo3 from "./../../assets/img/logo3.png";
 import "./footer.scss";
 import logo2 from "./../../assets/img/logo2.png";
-import PP from "./../../views/PrivacyPolicy/pp";
-import Imp from "./../../views/Impressum/impressum";
+// import PP from "./../../views/PrivacyPolicy/pp";
+// import Imp from "./../../views/Impressum/impressum";
+import logo from "./../../assets/img/softy_logo.jpg";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 function Footer() {
   return (
     <div className="footer">
@@ -24,19 +26,24 @@ function Footer() {
               <Link to="/privacy">Datenschutzerklärung</Link>
             </a>
           </p>
-          <Route exact path="/Privacy" component={PP} />
+          {/* <Route exact path="/Privacy" component={PP} /> */}
           <p>
             <a>
               <Link to="/Imp">Impressum</Link>
             </a>
           </p>
-          <Route exact path="/Imp" component={Imp} />
+          {/* <Route exact path="/Imp" component={Imp} /> */}
         </div>
       </div>
       <div className="divider"></div>
       <div className="end_line">
         <div className="left">© 2020 Praxis Dr. Dettner</div>
-        <div className="right">Entwickelt von softsourced</div>
+        <div className="right">
+          Entwickelt von{" "}
+          <a href="https://softsourced.de/" target="_blank">
+            <img src={logo} alt="logo" />
+          </a>
+        </div>
       </div>
     </div>
   );

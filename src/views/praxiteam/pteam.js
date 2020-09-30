@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "@emotion/styled/macro";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import image from "./../../assets/img/Doc_team.png";
-import "./pteam.scss";
+//import "./pteam.scss";
 const Hover = styled.div({
   opacity: 0,
   transition: "opacity 350ms ease",
@@ -23,14 +23,15 @@ const DisplayOver = styled.div({
   boxSizing: "border-box",
 });
 
-const SubTitle = styled.h4({
+const SubTitle = styled.h5({
   transform: "translate3d(0,20px,0)",
   transition: "transform 350ms ease",
 });
 
-const Paragraph = styled.p({
+const Paragraph = styled.h5({
   transform: "translate3d(0,50px,0)",
   transition: "transform 350ms ease",
+  fontsize: "1000%",
 });
 
 const Background = styled.div({

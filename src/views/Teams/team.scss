@@ -1,33 +1,15 @@
-.tm{
+.team_wrapper {
   overflow-x: hidden;
-}
 
-
-
-
-
-.teams_main {
   .image_team {
-    justify-items: center;
-    padding-top: 5%;
-    padding-left: 15%;
+    padding: 20px 200px 10px 200px;
     img {
-      justify-self: center;
-      //position: absolute;
-      width: 80%;
-      //left: 10%;
-      object-fit: contain;
-      //top: 30%;
+      width: 100%;
     }
   }
 
   .content_team {
-   
-    width: 60%;
-    // height: 60%;
-    padding-left: 20%;
-    // left: 25%;
-    // top: 150%;
+    padding: 20px 300px 10px 300px;
     color: #393939;
     font-family: Lato;
     font-style: normal;
@@ -40,7 +22,6 @@
     letter-spacing: 0.5px;
     ul li {
       color: #393939;
-
       list-style: none;
       font-size: 23px;
       padding: 0 0 0 em;
@@ -52,47 +33,61 @@
     ul li::before {
       color: #5ecd73;
       list-style-type: square;
-
       content: "\25AA";
       font-weight: bold;
-
       font-size: 3em;
-
       left: -0.5em;
-
       position: absolute;
-
       top: -0.5em;
     }
-    a{
+    a {
       text-decoration: none;
-      color:#5ecd73 ;
+      color: #5ecd73;
       font-weight: 500;
     }
   }
+}
 
-  @media only screen and (max-width: 1147px) {
+@media only screen and (max-width: 1147px) {
+  .team_wrapper {
     .image_team {
+      padding: 10px 20px 10px 20px;
       img {
-        //top: 20%;
-        object-fit: center;
+        width: 100%;
       }
     }
     .content_team {
-      font-size: 18px;
+      padding: 10px 100px 5px 100px;
       ul li {
-        font-size: 18px;
+        font-size: 22px;
+      }
+      ul li::before {
+        font-size: 2em;
       }
     }
   }
 }
 
-@media screen and (max-width: 1147px) {
-  .header {
-    font-size: 260%;
-  }
-  .border {
-    width: 80%;
-    left: 11%;
+@media only screen and (max-width: 700px) {
+  .team_wrapper {
+    .image_team {
+      padding: 10px 20px 10px 20px;
+      img {
+        width: 100%;
+      }
+    }
+    .content_team {
+      padding: 5px 50px 5px 50px;
+      line-height: 20px;
+      font-size: 12px;
+      ul li {
+        font-size: 12px;
+      }
+      ul li::before {
+        font-size: 2em;
+        left: -0.8em;
+        top: 0em;
+      }
+    }
   }
 }

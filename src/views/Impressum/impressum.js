@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import doctor from "./../../assets/img/ultrasound.jpg";
 import Footer from "./../../components/footer/footer";
+import "./../../views/Heading.scss";
 import "./impressum.scss";
 class Impressum extends Component {
   componentDidMount = () => {
@@ -8,13 +9,15 @@ class Impressum extends Component {
   };
   render() {
     return (
-      <div className="im">
-        <div>
-          <div className="header">Impressum</div>;<div className="border"></div>
-          <div className="subtitle_imp">
-            Impressum - Pflichtangaben nach dem Telemediengesetz (TMG, §5)
-          </div>
+      <>
+        <div className="im_wrapper">
+          <div className="header">Impressum</div>
+          <div className="border"></div>
           <div className="main">
+            <h2 style={{ color: "#5ecd73" }}>
+              Impressum - Pflichtangaben nach dem Telemediengesetz (TMG, §5)
+            </h2>
+
             <div class="body">
               <p style={{ color: "#5ecd73" }}>Name und Praxisanschrift:</p>
               <p>
@@ -178,7 +181,8 @@ class Impressum extends Component {
             </div>
           </div>
         </div>
-      </div>
+        <Footer />
+      </>
     );
   }
 }

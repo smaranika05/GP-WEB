@@ -39,7 +39,7 @@ class App extends Component {
           <Pteam />
         </div>
 
-        <div className="time" id="time">
+        <div className="time" id="timing">
           <h1>Sprechzeiten</h1>
           <Time />
         </div>

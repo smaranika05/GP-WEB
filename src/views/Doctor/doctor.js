@@ -23,12 +23,12 @@ const DisplayOver = styled.div({
   boxSizing: "border-box",
 });
 
-const SubTitle = styled.h4({
+const SubTitle = styled.h5({
   transform: "translate3d(0,20px,0)",
   transition: "transform 350ms ease",
 });
 
-const Paragraph = styled.p({
+const Paragraph = styled.h5({
   transform: "translate3d(0,50px,0)",
   transition: "transform 350ms ease",
 });

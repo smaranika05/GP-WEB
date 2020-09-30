@@ -1,13 +1,11 @@
 .header-wrap {
   position: fixed;
-
   width: 100%;
   // padding-top: 5px;
   background: white;
   display: flex;
   transition: 0.2s;
 }
-
 .brandLogo {
   padding: 10px;
   padding-left: 0px;
@@ -25,7 +23,6 @@
 object {
   pointer-events: none;
 }
-
 .navLinks {
   width: 100%;
   padding: 0px;
@@ -43,9 +40,8 @@ object {
     padding: 10px 20px;
     letter-spacing: 1.5px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
   }
-
   a:hover {
     transition: 0.4s;
     color: #5ecd73;
@@ -56,7 +52,6 @@ object {
   display: flex;
   justify-content: flex-end;
 }
-
 .menuWrapper {
   position: fixed;
   min-width: 100vw;
@@ -67,11 +62,22 @@ object {
   /*  background: #4776E6;  
 background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  
 background: linear-gradient(to right, #8E54E9, #4776E6);  */
-
   z-index: 40;
   transition: 1s;
   opacity: 0;
   display: none;
+  a {
+    font-family: Lato;
+    // position: relative;
+    font-size: 20px;
+    outline: none;
+    text-decoration: none !important;
+    color: black;
+  }
+  a:hover {
+    transition: 0.4s;
+    color: #fff;
+  }
 }
 .menuWrapper_fadein {
   opacity: 1;
@@ -80,7 +86,6 @@ background: linear-gradient(to right, #8E54E9, #4776E6);  */
 .menuWrapper_display {
   display: block;
 }
-
 .linksWrapper {
   position: absolute;
   top: 50%;
@@ -92,13 +97,11 @@ background: linear-gradient(to right, #8E54E9, #4776E6);  */
   align-items: center;
   height: 40vh;
 }
-
 .menuWrapper_fadein .navLink {
   opacity: 1;
   transform: translateY(0);
   transition: 2s;
 }
-
 #hamburger {
   display: none;
   width: 34px;
@@ -119,7 +122,6 @@ background: linear-gradient(to right, #8E54E9, #4776E6);  */
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
-
 #hamburger span {
   position: absolute;
   height: 5px;
@@ -137,19 +139,15 @@ background: linear-gradient(to right, #8E54E9, #4776E6);  */
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
-
 #hamburger span:nth-child(1) {
   top: 0px;
 }
-
 #hamburger span:nth-child(2) {
   top: 10px;
 }
-
 #hamburger span:nth-child(3) {
   top: 20px;
 }
-
 #hamburger.open span:nth-child(1) {
   top: 10px;
   -webkit-transform: rotate(135deg);
@@ -157,12 +155,10 @@ background: linear-gradient(to right, #8E54E9, #4776E6);  */
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
 }
-
 #hamburger.open span:nth-child(2) {
   opacity: 0;
   left: -60px;
 }
-
 #hamburger.open span:nth-child(3) {
   top: 10px;
   -webkit-transform: rotate(-135deg);
@@ -170,7 +166,6 @@ background: linear-gradient(to right, #8E54E9, #4776E6);  */
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
-
 @media only screen and (min-width: 760px) and (max-width: 800px) {
   .brandLogo {
     width: 30%;
@@ -193,7 +188,6 @@ background: linear-gradient(to right, #8E54E9, #4776E6);  */
     transform: translateY(-15px);
   }
 }
-
 @media only screen and (max-width: 1000px) {
   .brandLogo {
     padding: 6px;

@@ -33,6 +33,7 @@ class App extends Component {
           <Route exact path="/Imp" component={Imp} />
           <Route exact path="/Root" component={Root} />
           <Route exact path="/Gallery" component={Gallery} />
+          <Route path="#time" component={Time} />
         </Router>
       </div>
     );

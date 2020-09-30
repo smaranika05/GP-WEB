@@ -1,51 +1,67 @@
+// .Hover_img {
+//   .doc_scroll_text {
+//     // justify-self: center;
+//     // align-self: center;
+//     // width: 10%;
+//     .doc_head {
+//       //height: 10%;
 
-  
- .Hover_img {
-  .doc_scroll_text {
-    // justify-self: center;
-    // align-self: center;
-    // width: 10%;
-    .doc_head {
-      //height: 10%;
+//       font-family: Lato;
+//       font-style: normal;
+//       font-weight: normal;
+//       font-size: 400%;
+//       color: #ffffff;
+//     }
+//     .doc_content {
+//       //height: 10%;
+//       width: 50%;
+//       font-family: Lato;
+//       font-style: normal;
+//       font-weight: normal;
+//       font-size: 120%;
+//       color: #ffffff;
+//     }
+//     .doc_sub {
+//       display: flex;
+//       align-items: center;
 
-      font-family: Lato;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 400%;
-      color: #ffffff;
-    }
-    .doc_content {
-      //height: 10%;
-      width: 50%;
-      font-family: Lato;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 120%;
-      color: #ffffff;
-    }
-    .doc_sub {
-      display: flex;
-      align-items: center;
+//       .doc_btn {
+//         width: 27px;
+//         height: 27px;
+//         background: #5ecd73;
+//         background-image: url(./../../assets/img/Vector_two.png);
+//         background-repeat: no-repeat;
+//         background-position: center;
+//         border: none;
+//         color: white;
+//         display: inline-block;
+//         margin: 0.5% 1%;
+//         border-radius: 50%;
+//       }
+//       a {
+//         font-family: Lato;
+//         font-style: normal;
+//         font-size: 100%;
+//         color: #5ecd73;
+//       }
+//     }
+//   }
+// }
 
-      .doc_btn {
-        width: 27px;
-        height: 27px;
-        background: #5ecd73;
-        background-image: url(./../../assets/img/Vector_two.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        border: none;
-        color: white;
-        display: inline-block;
-        margin: 0.5% 1%;
-        border-radius: 50%;
-      }
-      a {
-        font-family: Lato;
-        font-style: normal;
-        font-size: 100%;
-        color: #5ecd73;
-      }
-    }
-  }
-}
+// @media only screen and (max-width: 1000px) {
+//   .Hover_img {
+//     .doc_scroll_text {
+//       .doc_head {
+//         font-size: 300%;
+//       }
+//       .doc_content {
+//         font-size: 60%;
+//       }
+//       .doc_sub {
+//         a {
+//           font-size: 50%;
+//         }
+//       }
+//     }
+//   }
+// }
