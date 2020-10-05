@@ -68,7 +68,7 @@ const Background = styled.div({
 class Hover_img extends Component {
   render() {
     return (
-      <div className="Hover_img">
+      <div className="doc_Hover_img">
         <Background style={{ backgroundImage: `url(${image})` }}>
           <DisplayOver>
             <Hover>
@@ -94,6 +94,12 @@ class Hover_img extends Component {
             </Hover>
           </DisplayOver>
         </Background>
+        <div className="button">
+          <a className="btn_two" href="/About">
+            <div className="btn_txt_two">Zum Artzprofil</div>
+            <div className="btn_two_in"></div>
+          </a>
+        </div>
       </div>
     );
   }

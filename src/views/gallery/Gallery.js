@@ -22,7 +22,7 @@ const s = {
 // SLIDES DATA
 //===========================================
 const slides = [slide1, slide2, slide3, slide4, slide5, slide6];
-
+const slidePhone = [slide4, slide5, slide6];
 //===========================================
 // APP COMPONENT
 //===========================================
@@ -30,9 +30,18 @@ class Gallery extends Component {
   render() {
     return (
       <div className="slide_cover">
-        <div className={s.container}>
-          <div className={s.main}>
-            <Slideshow slides={slides} />
+        <div className="desktop_view">
+          <div className={s.container}>
+            <div className={s.main}>
+              <Slideshow slides={slides} />
+            </div>
+          </div>
+        </div>
+        <div className="phone_view">
+          <div className={s.container}>
+            <div className={s.main}>
+              <Slideshow slides={slidePhone} />
+            </div>
           </div>
         </div>
       </div>

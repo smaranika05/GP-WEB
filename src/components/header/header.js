@@ -12,12 +12,12 @@ class Header extends React.Component {
     this.hamburger = React.createRef();
     this.state = {
       navLinks: [
-        {
-          linkName: "Home",
-          linkAdd: "#root",
-          active: false,
-          useNavLink: true,
-        },
+        // {
+        //   linkName: "Home",
+        //   linkAdd: "#root",
+        //   active: false,
+        //   useNavLink: true,
+        // },
         {
           linkName: "Praxisteam",
           linkAdd: "#praxisteam",
@@ -40,6 +40,12 @@ class Header extends React.Component {
         {
           linkName: "Kontakt",
           linkAdd: "Address",
+          active: false,
+          useNavLink: true,
+        },
+        {
+          linkName: "Kollege / Kollegin gesucht",
+          linkAdd: "About",
           active: false,
           useNavLink: true,
         },
@@ -87,16 +93,14 @@ class Header extends React.Component {
     const navlinks = this.state.navLinks.map((navLink) => {
       return (
         <div className="navLink" onClick={this.handleHamburger}>
-          {
-            navLink.useNavLink && (<Link smooth to={`/${navLink.linkAdd}`}>
+          {navLink.useNavLink && (
+            <Link smooth to={`/${navLink.linkAdd}`}>
               {navLink.linkName}
-            </Link>)
-          }
-          {
-            !navLink.useNavLink && (<a href={`/${navLink.linkAdd}`}>
-              {navLink.linkName}
-            </a>)
-          }
+            </Link>
+          )}
+          {!navLink.useNavLink && (
+            <a href={`/${navLink.linkAdd}`}>{navLink.linkName}</a>
+          )}
         </div>
       );
     });

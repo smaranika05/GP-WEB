@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import docroom from "./../../assets/img/x.png";
-
+import { MdLocationOn } from "react-icons/md";
+import { CgPhone } from "react-icons/cg";
 import "./Root.scss";
 class Root extends Component {
   render() {
@@ -16,11 +17,7 @@ class Root extends Component {
             </p>
             <a className="btn_one" href="#praxisteam">
               <div className="btn_txt_one">Erfahren Sie mehr über uns.</div>
-
-              
-                <div className="btn_one_in" href="#praxisteam"></div>
-
-             
+              <div className="btn_one_in" href="#praxisteam"></div>
             </a>
 
             <br></br>
@@ -28,8 +25,34 @@ class Root extends Component {
               <div className="btn_txt_two">
                 Leistungen, die wir für Sie anbieten.
               </div>
-              <div className="btn_two_in" ></div>
+              <div className="btn_two_in"></div>
             </a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <p
+              style={{
+                fontFamily: "lato",
+                fontSize: "16px",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <CgPhone size="20px" color="#5ecd73" />
+              09732-1247
+            </p>
+            <p
+              style={{
+                fontFamily: "lato",
+                fontSize: "16px",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <MdLocationOn size="22px" color="#5ecd73" />
+              Kissinger Str. 42, 97762 Hammelburg
+            </p>
           </div>
           <div className="right_content">
             <img src={docroom} alt="docroom" />

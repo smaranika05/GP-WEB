@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import styled from "@emotion/styled/macro";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import image from "./../../assets/img/Doc_team.png";
-//import "./pteam.scss";
+import { Button } from "@material-ui/core";
+
+import "./pteam.scss";
 const Hover = styled.div({
   opacity: 0,
   transition: "opacity 350ms ease",
@@ -96,6 +98,12 @@ class Hover_img extends Component {
             </Hover>
           </DisplayOver>
         </Background>
+        <div className="button">
+          <a className="btn_two" href="/Team">
+            <div className="btn_txt_two">Mehr übers Praxisteam</div>
+            <div className="btn_two_in"></div>
+          </a>
+        </div>
       </div>
     );
   }

@@ -2,7 +2,14 @@
 
 .slide_cover {
   padding: 0px 150px 100px 150px;
+  .phone_view {
+    display: none;
+  }
+  .desktop_view {
+    visibility: visible;
+  }
 }
+
 .screenW {
   //padding: 100px 100px 100px 100px;
   // width: 100vw;
@@ -101,11 +108,18 @@
   transition: background-color 1s ease-in-out;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .slide_cover {
     padding: 0px 0px 0px 0px;
-  }
-  .imgCover {
-    object-fit: cover;
+    .phone_view {
+      display: inline;
+    }
+    .desktop_view {
+      display: none;
+    }
+
+    .imgCover {
+      object-fit: cover;
+    }
   }
 }

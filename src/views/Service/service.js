@@ -4,7 +4,6 @@ import "./service.scss";
 import "./../../views/Heading.scss";
 import Footer from "../../components/footer/footer";
 
-
 class Service extends Component {
   componentDidMount = () => {
     window.scrollTo(0, 0);
@@ -12,7 +11,7 @@ class Service extends Component {
   render() {
     return (
       <div className="ser">
-        <div className="header">Leistungsspektrum</div>;
+        <div className="header">Leistungsspektrum</div>
         <div className="border"></div>
         <div className="listing">
           <ul>
@@ -33,7 +32,7 @@ class Service extends Component {
             <li>Atteste und Gutachten</li>
           </ul>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     );
   }

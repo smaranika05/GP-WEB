@@ -1,4 +1,4 @@
-.Hover_img {
+.doc_Hover_img {
   .doc_scroll_text {
     // justify-self: center;
     // align-self: center;
@@ -44,6 +44,65 @@
         font-size: 100%;
         color: #5ecd73;
       }
+    }
+  }
+
+  .button {
+    visibility: hidden;
+    padding: 10px 10px 10px 100px;
+    .btn_two {
+      text-decoration: none;
+      min-width: max-content;
+      max-width: max-content;
+      // height: 5%;
+      border-radius: 75px;
+      background: #5ecd73;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      justify-content: center;
+      //Text
+      .btn_txt_two {
+        min-width: max-content;
+        margin: 14px 4px 14px 19px;
+        font-family: Lato;
+        font-style: normal;
+        font-size: 110%;
+        color: #ffffff;
+        cursor: pointer;
+      }
+      //whit button
+      //   .btn_two_in {
+      //     background-image: url("./../../assets//img//Vector.png");
+      //     background-repeat: no-repeat;
+      //     background-position: center;
+      //     padding: 5%;
+      //     background-color: #ffffff;
+      //     border: none;
+      //     color: white;
+      //     // display: inline-block;
+      //     // margin: 2% 82%;
+      //     cursor: pointer;
+      //     border-radius: 50%;
+      //   }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .doc_Hover_img {
+    .button {
+      visibility: visible;
+      padding: 10px 10px 10px 300px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .doc_Hover_img {
+    .button {
+      visibility: visible;
+      padding: 10px 10px 10px 100px;
     }
   }
 }
