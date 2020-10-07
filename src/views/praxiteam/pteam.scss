@@ -106,7 +106,7 @@
       .background_img {
         background-image: url("./../../assets/img/Mask Group-1.png");
         background-size: 100%;
-        height: 350px;
+        height: 400px;
         background-position: bottom;
         .hovering {
           display: none;
@@ -129,13 +129,13 @@
       }
     }
     .bottom {
-      padding: 20px 20px 20px 20px;
-      display: inline;
+      padding: 20px;
+      display: inline-block;
       font-style: normal;
       font-weight: normal;
       font-family: lato;
       text-align: center;
-      margin-left: 200px;
+
       a {
         color: #5ecd73;
       }

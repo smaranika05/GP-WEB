@@ -114,12 +114,13 @@
       }
     }
     .bottom {
-      display: inline;
+      display: inline-block;
+      padding: 20px;
       font-style: normal;
       font-weight: normal;
       font-family: lato;
       text-align: center;
-      margin-left: 200px;
+      //margin-left: 200px;
       a {
         color: #5ecd73;
       }

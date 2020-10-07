@@ -13,17 +13,19 @@ h1 {
   // Left container
 
   .left_content {
+    //text-align: center;
     float: left;
     width: 55%;
     padding-top: 150px;
-    padding-left: 10%;
+    //padding-left: 10%;
     a {
       text-decoration: none;
     }
     .content {
-      align-self: center;
+      text-align: center;
     }
     .links {
+      padding-left: 20%;
       .btn_one {
         justify-content: left;
         min-width: max-content;
@@ -121,6 +123,7 @@ h1 {
         align-self: center;
       }
       .links {
+        padding-left: 16%;
         .btn_one {
           width: 200px;
           height: 50px;
