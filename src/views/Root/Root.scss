@@ -13,81 +13,85 @@ h1 {
   // Left container
 
   .left_content {
-    padding-left: 10%;
-    align-items: center;
     float: left;
     width: 55%;
     padding-top: 150px;
+    padding-left: 10%;
     a {
       text-decoration: none;
     }
-    // First green button
-    .btn_one {
-      min-width: max-content;
-      max-width: max-content;
-      // height: 5%;
-      border-radius: 75px;
-      background: #5ecd73;
-      display: flex;
-      align-items: center;
-      padding: 0 20px;
-      justify-content: center;
-      //Text
-      .btn_txt_one {
-        min-width: max-content;
-        margin: 14px 4px 14px 19px;
-        font-family: Lato;
-        font-style: normal;
-        font-size: 110%;
-        color: #ffffff;
-      }
-      //whit button
-      .btn_one_in {
-        background-image: url("./../../assets//img//Vector.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        padding: 6%;
-        background-color: #ffffff;
-        border: none;
-        color: white;
-        // display: inline-block;
-        // margin: 2% 82%;
-        cursor: pointer;
-        border-radius: 50%;
-      }
+    .content {
+      align-self: center;
     }
-    .btn_two {
-      min-width: max-content;
-      max-width: max-content;
-      // height: 5%;
-      border-radius: 75px;
-      background: #5ecd73;
-      display: flex;
-      align-items: center;
-      padding: 0 20px;
-      justify-content: center;
-      //Text
-      .btn_txt_two {
+    .links {
+      .btn_one {
+        justify-content: left;
         min-width: max-content;
-        margin: 14px 4px 14px 19px;
-        font-family: Lato;
-        font-style: normal;
-        font-size: 110%;
-        color: #ffffff;
+        max-width: max-content;
+        // height: 5%;
+        border-radius: 75px;
+        background: #5ecd73;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: center;
+        //Text
+        .btn_txt_one {
+          min-width: max-content;
+          margin: 14px 4px 14px 19px;
+          font-family: Lato;
+          font-style: normal;
+          font-size: 110%;
+          color: #ffffff;
+        }
+        //whit button
+        .btn_one_in {
+          background-image: url("./../../assets//img//Vector.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 6%;
+          background-color: #ffffff;
+          border: none;
+          color: white;
+          // display: inline-block;
+          // margin: 2% 82%;
+          cursor: pointer;
+          border-radius: 50%;
+        }
       }
-      //whit button
-      .btn_two_in {
-        background-image: url("./../../assets//img//Vector.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        padding: 5%;
-        background-color: #ffffff;
-        border: none;
-        color: white;
-        // display: inline-block;
-        // margin: 2% 82%;
-        cursor: pointer;
-        border-radius: 50%;
+      .btn_two {
+        min-width: max-content;
+        max-width: max-content;
+        // height: 5%;
+        border-radius: 75px;
+        background: #5ecd73;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: center;
+        //Text
+        .btn_txt_two {
+          min-width: max-content;
+          margin: 14px 4px 14px 19px;
+          font-family: Lato;
+          font-style: normal;
+          font-size: 110%;
+          color: #ffffff;
+        }
+        //whit button
+        .btn_two_in {
+          background-image: url("./../../assets//img//Vector.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 5%;
+          background-color: #ffffff;
+          border: none;
+          color: white;
+          // display: inline-block;
+          // margin: 2% 82%;
+          cursor: pointer;
+          border-radius: 50%;
+        }
       }
     }
   }
@@ -110,53 +114,34 @@ h1 {
     width: 100%;
     flex-direction: column;
     .left_content {
-      width: 65%;
-      margin-left: 5%;
-      .btn_one {
-        width: 250px;
-        height: 50px;
-        .btn_txt_one {
-          font-size: 100%;
+      width: 90%;
+
+      .content {
+        padding-left: 5%;
+        align-self: center;
+      }
+      .links {
+        .btn_one {
+          width: 200px;
+          height: 50px;
+          .btn_txt_one {
+            font-size: 100%;
+          }
+        }
+        .btn_two {
+          width: 200px;
+          height: 50px;
+          .btn_txt_two {
+            font-size: 100%;
+          }
         }
       }
-      .btn_two {
-        width: 350px;
-        height: 50px;
-        .btn_txt_two {
-          font-size: 100%;
-        }
-      }
+
+      //  align-self: center;
+      //margin-left: 5%;
     }
     .right_content {
       display: none;
     }
   }
 }
-
-// @media screen and (max-width: 500px) {
-//   .doctorRoom {
-//     width: 100%;
-//     flex-direction: column;
-//     .left_content {
-//       width: 65%;
-//       // margin-left: 2%;
-//       .btn_one {
-//         width: 200px;
-//         height: 50px;
-//         .btn_txt_one {
-//           font-size: 100%;
-//         }
-//       }
-//       .btn_two {
-//         width: 200px;
-//         height: 50px;
-//         .btn_txt_two {
-//           font-size: 100%;
-//         }
-//       }
-//     }
-//     .right_content {
-//       display: none;
-//     }
-//   }
-// }

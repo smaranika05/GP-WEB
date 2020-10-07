@@ -10,7 +10,7 @@
     // font-weight: 500%;
     font-size: 25px;
     color: #393939;
-    padding: 20px 0px 20px 0px;
+
     text-align: justify;
     line-height: 2.5;
 
@@ -31,7 +31,7 @@
       display: inline-block;
       font-size: 2em;
       position: absolute;
-      left: -0.6em;
+      left: -0.9em;
       top: -0.6em;
     }
   }
@@ -40,14 +40,15 @@
 @media screen and (max-width: 700px) {
   .ser {
     .listing {
-      width: 55%;
+      //width: 55%;
       margin-left: 10%;
       line-height: 1.5;
       ul li {
         font-size: 15px;
       }
       ul li::before {
-        left: -0.6em;
+        color: #5ecd73;
+        left: -0.9em;
         top: -0.4em;
       }
     }
@@ -57,6 +58,12 @@
   .ser {
     .listing {
       margin-left: 15%;
+      ul li {
+        font-size: 15px;
+      }
+      ul li::before {
+        color: #5ecd73;
+      }
     }
   }
 }

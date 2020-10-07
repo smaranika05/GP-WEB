@@ -1,111 +1,144 @@
-.Hover_img {
-  //   background-size: contain;
-  //   background-repeat: no-repeat;
-  //   background-position: center;
-  .doc_scroll_text {
-    // justify-self: center;
-    // align-self: center;
-    // width: 10%;
-    .doc_head {
-      //height: 10%;
+.hover_wrapper {
+  .Hover_img {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    .background_img {
+      background-image: url("./../../assets/img/Doc_team.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      //width: "300px";
+      height: "100vh";
+      //  text-align: center;
+      //   background-repeat: no-repeat;
+      //   background-position: center;
 
-      font-family: Lato;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 400%;
-      color: #ffffff;
-    }
-    .doc_content {
-      //height: 10%;
-      width: 50%;
-      font-family: Lato;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 120%;
-      color: #ffffff;
-    }
-    .doc_sub {
-      display: flex;
-      align-items: center;
+      .doc_scroll_text {
+        // justify-self: center;
+        // align-self: center;
+        // width: 10%;
+        padding-top: 80px;
 
-      .doc_btn {
-        width: 27px;
-        height: 27px;
-        background: #5ecd73;
-        background-image: url(./../../assets/img/Vector_two.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        border: none;
-        color: white;
-        display: inline-block;
-        margin: 0.5% 1%;
-        border-radius: 50%;
-      }
-      a {
-        font-family: Lato;
-        font-style: normal;
-        font-size: 100%;
-        color: #5ecd73;
+        //letter-spacing: 1px;
+
+        // text-align: center;
+        color: #ffffff;
+        .doc_head {
+          font-size: 400%;
+          text-align: center;
+        }
+        .doc_content {
+          //width: 50%;
+          //  width: 100%;
+          //  margin: 1rem auto;
+          // padding: 150px;
+          // padding-left: 150px;
+          padding: 0px 300px 0px 300px;
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
+          // padding: ;
+          font-size: 120%;
+          text-align: justify;
+        }
+        .doc_sub {
+          display: flex;
+          padding: 0px 300px 0px 300px;
+          text-align: center;
+          .doc_btn {
+            width: 27px;
+            height: 27px;
+            background: #5ecd73;
+            background-image: url(./../../assets/img/Vector_two.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            border: none;
+            color: white;
+            display: inline-block;
+            margin: 0.12% 1%;
+            border-radius: 50%;
+          }
+          a {
+            font-family: Lato;
+            font-style: normal;
+            font-size: 100%;
+            color: #5ecd73;
+          }
+        }
       }
     }
   }
-
-  .button {
-    visibility: hidden;
-    padding: 10px 10px 10px 60px;
-    .btn_two {
-      text-decoration: none;
-      min-width: max-content;
-      max-width: max-content;
-      // height: 5%;
-      border-radius: 75px;
-      background: #5ecd73;
-      display: flex;
-      align-items: center;
-      padding: 0 20px;
-      justify-content: center;
-      //Text
-      .btn_txt_two {
-        min-width: max-content;
-        margin: 14px 4px 14px 19px;
-        font-family: Lato;
-        font-style: normal;
-        font-size: 110%;
-        color: #ffffff;
-        cursor: pointer;
-      }
-      //whit button
-      //   .btn_two_in {
-      //     background-image: url("./../../assets//img//Vector.png");
-      //     background-repeat: no-repeat;
-      //     background-position: center;
-      //     padding: 5%;
-      //     background-color: #ffffff;
-      //     border: none;
-      //     color: white;
-      //     // display: inline-block;
-      //     // margin: 2% 82%;
-      //     cursor: pointer;
-      //     border-radius: 50%;
-      //   }
-    }
+  .bottom {
+    display: none;
+    padding: 2px 2px 2px 2px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .Hover_img {
-    .button {
-      visibility: visible;
-      padding: 10px 10px 10px 250px;
+  .hover_wrapper {
+    .Hover_img {
+      .background_img {
+        .doc_scroll_text {
+          .doc_content {
+            padding: 0px 100px 0px 100px;
+            font-size: 150%;
+          }
+          .doc_sub {
+            padding: 0px 150px 0px 150px;
+          }
+        }
+      }
+      // .button {
+      //   visibility: visible;
+      //   padding: 30px 250px 0px 250px;
+      //   a {
+      //     font-size: 120%;
+      //   }
+      // }
     }
   }
 }
 
 @media only screen and (max-width: 700px) {
-  .Hover_img {
-    .button {
-      visibility: visible;
-      padding: 10px 10px 10px 65px;
+  .hover_wrapper {
+    .Hover_img {
+      .background_img {
+        background-image: url("./../../assets/img/Mask Group-1.png");
+        background-size: 100%;
+        height: 350px;
+        background-position: bottom;
+        .hovering {
+          display: none;
+        }
+        .doc_scroll_text {
+          .doc_head {
+            font-size: 200%;
+          }
+          .doc_content {
+            // padding: 0px 20px 0px 20px;
+
+            font-size: 80%;
+            letter-spacing: 1px;
+          }
+          .doc_sub {
+            padding: 20px 80px 0px 80px;
+            font-size: 100%;
+          }
+        }
+      }
+    }
+    .bottom {
+      padding: 20px 20px 20px 20px;
+      display: inline;
+      font-style: normal;
+      font-weight: normal;
+      font-family: lato;
+      text-align: center;
+      margin-left: 200px;
+      a {
+        color: #5ecd73;
+      }
     }
   }
 }

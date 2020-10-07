@@ -8,8 +8,8 @@ import "./pteam.scss";
 const Hover = styled.div({
   opacity: 0,
   transition: "opacity 350ms ease",
-  paddingLeft: "30%",
-  paddingTop: "10%",
+  // paddingLeft: "30%",
+  // paddingTop: "10%",
 });
 
 const DisplayOver = styled.div({
@@ -25,33 +25,34 @@ const DisplayOver = styled.div({
   boxSizing: "border-box",
 });
 
-const SubTitle = styled.h5({
+const SubTitle = styled.p({
   transform: "translate3d(0,20px,0)",
   transition: "transform 350ms ease",
 });
 
-const Paragraph = styled.h5({
-  transform: "translate3d(0,50px,0)",
-  transition: "transform 350ms ease",
-  fontsize: "1000%",
-});
+// const Paragraph = styled.p({
+//   transform: "translate3d(0,50px,0)",
+//   transition: "transform 350ms ease",
+
+//   //fontsize: "1000%",
+// });
 
 const Background = styled.div({
-  backgroundSize: "cover",
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center",
+  // backgroundSize: "cover",
+  // backgroundRepeat: "no-repeat",
+  // backgroundPosition: "center",
   width: "300px",
   height: "100vh",
   color: "#FFF",
   // position: "relative",
   width: "max-width",
-  //   height: "350px",
+  // height: "350px",
 
   //backgroundImage: "url(./../../assets/img/individual_pic.jpg)",
   [`:hover ${DisplayOver}`]: {
     backgroundColor: "rgba(0,0,0,.7)",
   },
-  [`:hover ${SubTitle}, :hover ${Paragraph}`]: {
+  [`:hover ${SubTitle}`]: {
     transform: "translate3d(0,0,0)",
   },
   [`:hover ${Hover}`]: {
@@ -71,38 +72,51 @@ const Background = styled.div({
 class Hover_img extends Component {
   render() {
     return (
-      <div className="Hover_img">
-        <Background style={{ backgroundImage: `url(${image})` }}>
-          <DisplayOver>
-            <Hover>
-              <div className="doc_scroll_text">
-                <SubTitle>
-                  <p className="doc_head">Unser Praxisteam</p>
-                </SubTitle>
-                <Paragraph>
-                  <p className="doc_content">
-                    Wir haben die Allgemeinarztpraxis Dr. med. Dettner im Jahre
-                    1993 gegründet. Bis heute liegt es uns am Herzen, dass
-                    unsere Patientinne optimal versorgt werden. Uns ist es
-                    wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
-                  </p>
-                </Paragraph>
-                <div className="doc_sub">
-                  <div className="doc_btn"></div>
-
-                  <a>
-                    <Link to="/Team">Mehr übers Praxisteam</Link>
-                  </a>
-                </div>
-              </div>
-            </Hover>
-          </DisplayOver>
-        </Background>
-        <div className="button">
-          <a className="btn_two" href="/Team">
+      <div className="hover_wrapper">
+        <div className="Hover_img">
+          <div className="background_img">
+            <Background>
+              <DisplayOver className="hovering">
+                <Hover>
+                  <div className="doc_scroll_text">
+                    <SubTitle>
+                      <p className="doc_head">Unser Praxisteam</p>
+                      <p className="doc_content">
+                        Wir haben die Allgemeinarztpraxis Dr. med. Dettner im
+                        Jahre 1993 gegründet. Bis heute liegt es uns am Herzen,
+                        dass unsere Patientinne optimal versorgt werden. Uns ist
+                        es wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
+                      </p>
+                    </SubTitle>
+                    <div className="doc_sub">
+                      <div className="doc_btn"></div>
+                      <a>
+                        <Link to="/Team">Mehr übers Praxisteam</Link>
+                      </a>
+                    </div>
+                  </div>
+                </Hover>
+              </DisplayOver>
+            </Background>
+          </div>
+        </div>
+        <div className="bottom">
+          {/* <a className="btn_two" href="/Team">
             <div className="btn_txt_two">Mehr übers Praxisteam</div>
-            <div className="btn_two_in"></div>
-          </a>
+          </a> */}
+          <p>Unser Praxisteam</p>
+          <p>
+            Wir haben die Allgemeinarztpraxis Dr. med. Dettner im Jahre 1993
+            gegründet. Bis heute liegt es uns am Herzen, dass unsere Patientinne
+            optimal versorgt werden. Uns ist es wichtig, dass Sie sich bei uns
+            gut aufgehoben fühlen.
+          </p>
+          <div>
+            {/* <div className="doc_btn"></div> */}
+            <a>
+              <Link to="/Team">Mehr übers Praxisteam</Link>
+            </a>
+          </div>
         </div>
       </div>
     );
