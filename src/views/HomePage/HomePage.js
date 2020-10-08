@@ -43,10 +43,10 @@ class App extends Component {
           <Time />
         </div>
 
-        <div className="doct">
+        {/* <div className="doct">
           <h1>Dr. med. Ottmar Dettner</h1>
           <Doctor />
-        </div>
+        </div> */}
         <div className="gallery">
           <h1>Praxisräumlichkeiten</h1>
           <br></br>

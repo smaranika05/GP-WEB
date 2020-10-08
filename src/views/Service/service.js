@@ -19,8 +19,8 @@ class Service extends Component {
             <li>Ultraschall: Bauch, Schilddrüse, Knöcheldruckmessung</li>
             <li>Lungenfunktionstest (Spirometrie)</li>
             <li>
-              Vorsorgeuntersuchungen: Gesundheitscheck, Hautkrebsvorsorge,
-              Krebsvorsorge beim Mann, Stuhltest Darmkrebs
+              Vorsorgeuntersuchungen: Gesundheitscheck, Hautkrebsvorsorge
+              (Hautkrebsscreening), Krebsvorsorge beim Mann
             </li>
             <li>Kleine chirurgische Eingriffe</li>
             <li>

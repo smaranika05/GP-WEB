@@ -18,7 +18,7 @@ function Footer() {
           <p>Kissinger Straße 42</p>
           <p>97762 Hammelburg</p>
           <p>09732/1247</p>
-          <p>praxisdrdettner@t-online.de</p>
+          <p>dr.dettner@gmail.com</p>
         </div>
         <div class="links">
           <p>

@@ -24,7 +24,7 @@ class Impressum extends Component {
                 Allgemeinarztpraxis Dr. med. Ottmar Dettner <br></br>Kissinger
                 Str. 42<br></br> 97762 Hammelburg <br></br> Telefon: 09732 /
                 1247 <br></br> Fax: 09732 / 1869 <br></br>E-Mail:
-                drdettner@gmail.com
+                dr.dettner@gmail.com
               </p>
             </div>
             <br></br>
@@ -48,7 +48,7 @@ class Impressum extends Component {
             <div class="body">
               <p style={{ color: "#5ecd73" }}>Zuständige Aufsichtsbehörde:</p>
               <p>
-                assenärztliche Vereinigung <br></br> 80687 München <br></br>
+                Kassenärztliche Vereinigung <br></br> 80687 München <br></br>
                 Elsenheimerstraße 39 <br></br> Webpräsenz: https://www.kvb.de
               </p>
             </div>
@@ -86,8 +86,8 @@ class Impressum extends Component {
                 Konzeption & Realisierung dieser Webseite:
               </p>
               <p>
-                oftsourced UG (siehe https://softsourced.de/)<br></br> E-Mail:
-                info@softsourced.de
+                softsourced UG (siehe https://softsourced.de/)
+                <br></br> E-Mail: info@softsourced.de
               </p>
             </div>
             <div>

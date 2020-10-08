@@ -42,9 +42,8 @@ class Policy extends Component {
               Diese Website ist ohne Offenlegung persönlicher Daten zugänglich.
               Wenn Sie diese Website betreten, werden die Daten direkt vom
               Browser auf das Gerät auf den Server der Website übertragen. Diese
-              Informationen werden in s.g. Logdateien (siehe Punkt n)
-              gespeichert. Darüber hinaus verwendet diese Website Cookies (siehe
-              m).
+              Informationen werden in s.g. Logdateien gespeichert. Darüber
+              hinaus verwendet diese Website Cookies
             </p>
 
             <p>
@@ -261,9 +260,9 @@ class Policy extends Component {
                   verarbeitet anstatt gelöscht werden
                   <br></br>
                   <br></br>
-                  (iv) ein Widerspruch gem. Art. 21 DSGVO erfolgte und Interesse
-                  gegenübergestellt und verglichen werden; für den Zeitraum
-                  dieses Vergleichs können Sie eine Beschränkung der
+                  (iv) ein Widerspruch gem. Art. 21 DSGVO erfolgte und
+                  Interessen gegenübergestellt und verglichen werden; für den
+                  Zeitraum dieses Vergleichs können Sie eine Beschränkung der
                   Datenverarbeitung fordern.
                 </p>
               </li>
@@ -354,7 +353,7 @@ class Policy extends Component {
                   sein, findet die 128-Bit v3-Technologie Anwendung. Außerdem
                   finden Sicherheitsmaßnahmen Anwendung, die Daten gegen
                   Verlust, versehentliche oder intentionale Manipulation,
-                  Schaden oder Einsicht durch Dritte schützt. Diese Maßnahmen
+                  Schaden oder Einsicht durch Dritte schützen. Diese Maßnahmen
                   werden stets technisch aktualisiert.
                 </p>
               </li>
