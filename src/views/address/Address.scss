@@ -1,74 +1,100 @@
-.addr{
+.addr {
   overflow-x: hidden;
-}
 
-.address{
-width: 100%;
-.building {
-  display: flex;
-  float: right;
-  width: 60%;
-  height: 40%;
-  padding-top: 50px;
-  img{
+  .top_wrapper {
+    display: flex;
     width: 100%;
-    
+    padding: 50px 50px 0px 80px;
+    .descNimg {
+      width: 35%;
+      padding: 0px 10px 0px 10px;
+      //height: 60%;
+      // margin-left: 5%;
+      // padding-top: 40px;
+      float: left;
+      text-align: left;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 16px;
+      p {
+        margin: 2%;
+      }
+    }
+
+    .building {
+      float: right;
+
+      img {
+        background-size: contain;
+      }
+    }
   }
- 
- 
-  
+
+  .map {
+    width: 90%;
+    height: 30%;
+    padding: 20px 20px 20px 20px;
+    // padding-top: 400px;
+    margin-left: 5%;
+  }
 }
 
-.descNimg {
-  
-  width: 30%;
-  height: 60%;
-  margin-left: 5%;
-  padding-top: 40px;
-  float: left;
-  text-align: justify ;
-  font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 150%;
-  line-height: 16px;
-  p {
-    margin: 1.5%;
+@media screen and (max-width: 700px) {
+  .addr {
+    .top_wrapper {
+      flex-direction: column;
+      padding: 10px 50px 0px 0px;
+      .descNimg {
+        //text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: auto;
+        line-height: 20px;
+        p {
+          margin: 3%;
+        }
+      }
+      .building {
+        float: none;
+        padding: 0px 0px 0px 0px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .map {
+      display: none;
+    }
   }
-}
 }
 
-.map {
- 
-  width: 90%;
-  height: 30%;
-  padding-top: 400px;
- margin-left: 5%;
-  
-}
-
-@media screen and (max-width:1000px)
-{  .address{
-   width: 100%;
-   flex-direction: column;
-  .building{
-    align-items: center;
-    flex-direction: column;
-    padding-right: 166px;;
-    
+@media screen and (max-width: 1000px) {
+  .addr {
+    .top_wrapper {
+      flex-direction: row;
+      padding: 10px 50px 0px 0px;
+      .descNimg {
+        //text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: auto;
+        line-height: 20px;
+        p {
+          margin: 3%;
+        }
+      }
+      .building {
+        float: none;
+        padding: 0px 0px 0px 0px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .map {
+      display: none;
+    }
   }
-  .descNimg
-  {
-    align-items: center;
-    padding-top: 50px;
-    width: 100%;
-   p{
-     font-size: 20px;
-   }
-  }
-}
-.map{
-  width: 50%;
-  height: 50%;
-}
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
+//import Footer from "./components/footer/footer";
 import Home from "./views/HomePage/HomePage";
 import Team from "./views/Teams/team";
 import Service from "./views/Service/service";
@@ -9,13 +9,13 @@ import Contact from "./views/address/Address";
 import About from "./views/About/about";
 import PP from "./views/PrivacyPolicy/pp";
 import Imp from "./views/Impressum/impressum";
-import Pteam from "./views/praxiteam/pteam";
-import Doctor from "./views/Doctor/doctor";
+//import Pteam from "./views/praxiteam/pteam";
+//import Doctor from "./views/Doctor/doctor";
 import Time from "./views/Time/time";
 import Gallery from "./views/gallery/Gallery";
 
 import Root from "./views/Root/Root";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/header/header";
 
 class App extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import image from "./../../assets/img/image.png";
-import { Container } from "@material-ui/core";
+//import { Container } from "@material-ui/core";
 import "./team.scss";
 import Footer from "./../../components/footer/footer";
 import "./../../views/Heading.scss";

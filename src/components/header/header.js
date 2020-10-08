@@ -3,7 +3,7 @@ import React from "react";
 import "./header.scss";
 import logo from "./../../assets/img/logo.png";
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 class Header extends React.Component {
   constructor(props) {
     super(props);

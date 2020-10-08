@@ -93,8 +93,8 @@
 @media only screen and (max-width: 700px) {
   .doc_Hover_img {
     .background_img {
-      // background-image: url("./../../assets/img/individual_pic.jpg");
-      // background-size: cover;
+      background-image: url("./../../assets/img/individual_pic.jpg");
+      //  background-size: 200%;
       .hovering {
         display: none;
       }
@@ -115,7 +115,7 @@
     }
     .bottom {
       display: inline-block;
-      padding: 20px;
+      padding: 0px 20px 0px 20px;
       font-style: normal;
       font-weight: normal;
       font-family: lato;

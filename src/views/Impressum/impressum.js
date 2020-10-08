@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import doctor from "./../../assets/img/ultrasound.jpg";
+//import doctor from "./../../assets/img/ultrasound.jpg";
 import Footer from "./../../components/footer/footer";
 import "./../../views/Heading.scss";
 import "./impressum.scss";

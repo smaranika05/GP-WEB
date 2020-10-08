@@ -21,7 +21,7 @@ const s = {
 //===========================================
 // SLIDES DATA
 //===========================================
-const slides = [slide1, slide2, slide3, slide4, slide5, slide6];
+const slides = [slide1, slide2, slide3, slide4];
 const slidePhone = [slide4, slide5, slide6];
 //===========================================
 // APP COMPONENT

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import styled from "@emotion/styled/macro";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import image from "./../../assets/img/Doc_team.png";
-import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
+//import image from "./../../assets/img/Doc_team.png";
+//import { Button } from "@material-ui/core";
 
 import "./pteam.scss";
 const Hover = styled.div({
@@ -41,7 +41,7 @@ const Background = styled.div({
   // backgroundSize: "cover",
   // backgroundRepeat: "no-repeat",
   // backgroundPosition: "center",
-  width: "300px",
+  //width: "300px",
   height: "100vh",
   color: "#FFF",
   // position: "relative",
@@ -90,9 +90,8 @@ class Hover_img extends Component {
                     </SubTitle>
                     <div className="doc_sub">
                       <div className="doc_btn"></div>
-                      <a>
-                        <Link to="/Team">Mehr übers Praxisteam</Link>
-                      </a>
+
+                      <Link to="/Team">Mehr übers Praxisteam</Link>
                     </div>
                   </div>
                 </Hover>
@@ -113,9 +112,8 @@ class Hover_img extends Component {
           </p>
           <div>
             {/* <div className="doc_btn"></div> */}
-            <a>
-              <Link to="/Team">Mehr übers Praxisteam</Link>
-            </a>
+
+            <Link to="/Team">Mehr übers Praxisteam</Link>
           </div>
         </div>
       </div>
