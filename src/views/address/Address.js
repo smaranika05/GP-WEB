@@ -28,7 +28,6 @@ class Address extends Component {
             <p>Facharzt für Allgemeinmedizin</p>
             <br></br>
             <p style={{ color: "#5ECD73" }}>Adresse</p>
-            <p>Google Maps Adresse</p>
             <p> Kissinger Str. 42</p>
             <p>97762 Hammelburg</p>
             <br></br>
