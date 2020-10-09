@@ -25,12 +25,12 @@ class App extends Component {
         <Router>
           <Header />
           <Route exact path="/" component={Home} />
-          <Route exact path="/team" component={Team} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/service" component={Service} />
-          <Route exact path="/Address" component={Contact} />
-          <Route exact path="/privacy" component={PP} />
-          <Route exact path="/Imp" component={Imp} />
+          <Route exact path="/praxisteam" component={Team} />
+          <Route exact path="/arztprofil" component={About} />
+          <Route exact path="/leistungsspektrum" component={Service} />
+          <Route exact path="/kontakt" component={Contact} />
+          <Route exact path="/datenschutzerklaerung" component={PP} />
+          <Route exact path="/impressum" component={Imp} />
           <Route exact path="/Root" component={Root} />
           <Route exact path="/Gallery" component={Gallery} />
           <Route path="#time" component={Time} />

@@ -91,7 +91,7 @@ class Hover_img extends Component {
                     <div className="doc_sub">
                       <div className="doc_btn"></div>
 
-                      <Link to="/Team">Mehr übers Praxisteam</Link>
+                      <Link to="/praxisteam">Mehr übers Praxisteam</Link>
                     </div>
                   </div>
                 </Hover>
@@ -100,9 +100,6 @@ class Hover_img extends Component {
           </div>
         </div>
         <div className="bottom">
-          {/* <a className="btn_two" href="/Team">
-            <div className="btn_txt_two">Mehr übers Praxisteam</div>
-          </a> */}
           <p>Unser Praxisteam</p>
           <p>
             Wir haben die Allgemeinarztpraxis Dr. med. Dettner im Jahre 1993
@@ -111,9 +108,7 @@ class Hover_img extends Component {
             gut aufgehoben fühlen.
           </p>
           <div>
-            {/* <div className="doc_btn"></div> */}
-
-            <Link to="/Team">Mehr übers Praxisteam</Link>
+            <Link to="/praxisteam">Mehr übers Praxisteam</Link>
           </div>
         </div>
       </div>

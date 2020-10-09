@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: normal;
     .background_img {
-      background-image: url(./../../assets/img/Doc_team.png);
+      background-image: url("./../../assets/img/Doc_team.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -106,7 +106,7 @@
       .background_img {
         background-image: url("./../../assets/img/Mask Group-1.png");
         background-size: 100%;
-        height: 400px;
+        height: 450px;
         background-position: bottom;
         .hovering {
           display: none;

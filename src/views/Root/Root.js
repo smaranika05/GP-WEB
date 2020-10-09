@@ -25,7 +25,7 @@ class Root extends Component {
               </a>
 
               <br></br>
-              <a className="btn_two" href="/service">
+              <a className="btn_two" href="/leistungsspektrum">
                 <div className="btn_txt_two">
                   Leistungen, die wir für Sie anbieten.
                 </div>

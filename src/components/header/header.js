@@ -27,25 +27,25 @@ class Header extends React.Component {
 
         {
           linkName: "Sprechzeiten",
-          linkAdd: "#timing",
+          linkAdd: "#sprechzeiten",
           active: false,
           useNavLink: false,
         },
         {
           linkName: "Leistungsspektrum",
-          linkAdd: "service",
+          linkAdd: "leistungsspektrum",
           active: false,
           useNavLink: true,
         },
         {
           linkName: "Kontakt",
-          linkAdd: "Address",
+          linkAdd: "kontakt",
           active: false,
           useNavLink: true,
         },
         {
           linkName: "Kollegin / Kollege gesucht",
-          linkAdd: "About",
+          linkAdd: "arztprofil",
           active: false,
           useNavLink: true,
         },

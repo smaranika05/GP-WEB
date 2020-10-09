@@ -34,7 +34,7 @@ class Team extends Component {
 
               <li>
                 Dr. Ottmar Dettner, Allgemeinarzt.{" "}
-                <a href="/About">Zum Profil→</a>
+                <a href="/arztprofil">Zum Profil→</a>
               </li>
               <li>Ute Dettner, Krankenschwester. Im Praxisteam seit 1993.</li>
               <li>Conny Stähr, Arzthelferin. Im Praxisteam seit 2006.</li>

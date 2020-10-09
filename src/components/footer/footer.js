@@ -17,17 +17,17 @@ function Footer() {
         <div class="address">
           <p>Kissinger Straße 42</p>
           <p>97762 Hammelburg</p>
-          <p>09732/1247</p>
+          <p>09732-1247</p>
           <p>dr.dettner@gmail.com</p>
         </div>
         <div class="links">
           <p>
-            <Link to="/privacy">Datenschutzerklärung</Link>
+            <Link to="/datenschutzerklaerung">Datenschutzerklärung</Link>
           </p>
           <br></br>
           {/* <Route exact path="/Privacy" component={PP} /> */}
           <p>
-            <Link to="/Imp">Impressum</Link>
+            <Link to="/impressum">Impressum</Link>
           </p>
           {/* <Route exact path="/Imp" component={Imp} /> */}
         </div>

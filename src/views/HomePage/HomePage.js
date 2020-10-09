@@ -1,31 +1,15 @@
 import React, { Component } from "react";
-//import { HashLink as Link } from "react-router-hash-link";
 
-// import docroom from "./../../assets/img/header-bg.jpg";
-// import docteam from "./../../assets/img/Doc_team.png";
-// import doctor from "./../../assets/img/individual_pic.jpg";
-
-// import vector from "./../../assets/img/Vector.png";
-// import Team from "./../../views/Teams/team";
-// import Home from "./../../views/HomePage/HomePage";
-// import About from "./../../views/About/about";
 import Pteam from "./../../views/praxiteam/pteam";
 
 import Gallery from "./../gallery/Gallery";
 import Time from "./../../views/Time/time";
 import Root from "./../../views/Root/Root";
-import Doctor from "./../../views/Doctor/doctor";
 
-//import Service from "./../../views/Service/service";
-// import Contact from "./../../views/address/Address";
-//import { Route, Link } from "react-router-dom";
 import "./Main.scss";
-// import Header from "./components/header/header";
-
-//import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Footer from "./../../components/footer/footer";
-// import Header from "../../components/header/header";
+
 class App extends Component {
   render() {
     return (
@@ -38,7 +22,7 @@ class App extends Component {
           <Pteam />
         </div>
 
-        <div className="time" id="timing">
+        <div className="time" id="sprechzeiten">
           <h1>Sprechzeiten</h1>
           <Time />
         </div>
