@@ -43,7 +43,7 @@ class Policy extends Component {
               Wenn Sie diese Website betreten, werden die Daten direkt vom
               Browser auf das Gerät auf den Server der Website übertragen. Diese
               Informationen werden in s.g. Logdateien gespeichert. Darüber
-              hinaus verwendet diese Website Cookies
+              hinaus verwendet diese Website Cookies.
             </p>
 
             <p>

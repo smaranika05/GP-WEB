@@ -19,7 +19,7 @@ class About extends Component {
 
         <div className="content_doc">
           <p>
-            Im Jahr 1975 macht Ottmar Dettner das Abitur und studierte
+            Im Jahr 1975 machte Ottmar Dettner das Abitur und studierte
             nachfolgend Medizin in Marburg, München und Bremen. Er promovierte
             in Würzburg. In seiner Doktorarbeit befasste er sich mit der
             Entstehung der Parkinson-Krankheit. Nach Tätigkeiten im Bereich der
