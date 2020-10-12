@@ -102,10 +102,11 @@ class Hover_img extends Component {
         <div className="bottom">
           <p>Unser Praxisteam</p>
           <p>
-            Wir haben die Allgemeinarztpraxis Dr. med. Dettner im Jahre 1993
-            gegründet. Bis heute liegt es uns am Herzen, dass unsere Patientinne
-            optimal versorgt werden. Uns ist es wichtig, dass Sie sich bei uns
-            gut aufgehoben fühlen.
+
+          Die Allgemeinarztpraxis besteht seit dem Jahr 1993. Bis
+                        heute liegt es uns am Herzen, dass unsere PatientINNEN
+                        optimal versorgt werden. Uns ist es wichtig, dass Sie
+                        sich bei uns gut aufgehoben fühlen.
           </p>
           <div>
             <Link to="/praxisteam">Mehr übers Praxisteam</Link>
