@@ -26,7 +26,7 @@ class Team extends Component {
               Mit unseren PatientINNEN sowie untereinander pflegen wir einen
               vertrauensvollen, von Aufmerksamkeit und Respekt geprägten Umgang.
               Das Praxisteam besteht seit 2007 in der jetzigen Konstellation.
-              Unsere Patientinnen wissen unser eingespieltes Team zu schätzen.
+              Unsere PatientINNEN wissen unser eingespieltes Team zu schätzen.
               Unser Team, von links nach rechts:
             </p>
             <ul className="content_list">
