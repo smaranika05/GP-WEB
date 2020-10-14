@@ -17,12 +17,12 @@ import Gallery from "./views/gallery/Gallery";
 import Root from "./views/Root/Root";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/header/header";
-
+import Kollege from "./views/Kollege/Kollege";
 class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+       <Router>
           <Header />
           <Route exact path="/" component={Home} />
           <Route exact path="/praxisteam" component={Team} />
@@ -33,8 +33,10 @@ class App extends Component {
           <Route exact path="/impressum" component={Imp} />
           <Route exact path="/Root" component={Root} />
           <Route exact path="/Gallery" component={Gallery} />
+          <Route exact path="/kollegegesucht" component={Kollege} />
           <Route path="#time" component={Time} />
         </Router>
+        
       </div>
     );
   }

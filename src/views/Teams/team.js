@@ -30,15 +30,15 @@ class Team extends Component {
               Unser Team, von links nach rechts:
             </p>
             <ul className="content_list">
-              <li>Gabi Schulz, Arzthelferin. Im Praxisteam seit 1996.</li>
+              <li>Gabi Schulz, Arzthelferin. Im Praxisteam seit 1995.</li>
 
               <li>
                 Dr. Ottmar Dettner, Allgemeinarzt.{" "}
                 <a href="/arztprofil">Zum Profil→</a>
               </li>
               <li>Ute Dettner, Krankenschwester. Im Praxisteam seit 1993.</li>
-              <li>Conny Stähr, Arzthelferin. Im Praxisteam seit 2006.</li>
-              <li>Sandra Zimmermann, Arzthelferin. Im Praxisteam seit 2007.</li>
+              <li>Conny Stähr, Arzthelferin. Im Praxisteam seit 2005.</li>
+              <li>Sandra Zimmermann, Arzthelferin. Im Praxisteam seit 2003.</li>
             </ul>
           </div>
         </div>
