@@ -27,20 +27,7 @@ class About extends Component {
             Weiterbildung zum Facharzt der Allgemeinmedizin ab. Ein Jahr später
             ließ er sich als Allgemeinarzt (Hausarzt) in Hammelburg nieder, wo
             er nach wie vor mit Freude praktiziert.
-          </p>
-          <p>
-            Dr. med. Ottmar Dettner würde sich über eine Kollegin oder einen
-            Kollegen freuen, die / der sich mit ihm und unserem Team zusammen um
-            das Wohlergehen unserer PatientINNEN kümmert.
-          </p>
-          <p>
-            Sie sind Allgemeinärztin oder Allgemeinarzt und haben Interesse
-            daran, sich mit Herrn Dr. med. Ottmar Dettner zusammenzuschließen?
-          </p>
-          <p>
-            So melden Sie sich gerne telefonisch (09732-1247) oder per E-Mail
-            (dr.dettner@gmail.com).
-          </p>
+            </p>          
         </div>
         <Footer />
       </div>
