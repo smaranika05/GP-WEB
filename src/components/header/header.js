@@ -44,13 +44,7 @@ class Header extends React.Component {
           useNavLink: true,
         },
         {
-          linkName: "Nachfolger/-in gesucht",
-          linkAdd: "arztprofil",
-          active: false,
-          useNavLink: true,
-        },
-        {
-          linkName: "Kollege gesucht",
+          linkName: "Kollegin / Kollege gesucht",
           linkAdd: "kollegegesucht",
           active: false,
           useNavLink: true,
