@@ -4,7 +4,7 @@ import "./footer.scss";
 //import logo2 from "./../../assets/img/logo2.png";
 // import PP from "./../../views/PrivacyPolicy/pp";
 // import Imp from "./../../views/Impressum/impressum";
-import logo from "./../../assets/img/softy_logo.jpg";
+import logo from "./../../assets/img/white-softy.svg";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -24,12 +24,10 @@ function Footer() {
           <p>
             <Link to="/datenschutzerklaerung">Datenschutzerklärung</Link>
           </p>
-          <br></br>
-          {/* <Route exact path="/Privacy" component={PP} /> */}
+
           <p>
             <Link to="/impressum">Impressum</Link>
           </p>
-          {/* <Route exact path="/Imp" component={Imp} /> */}
         </div>
       </div>
       <div className="divider"></div>
