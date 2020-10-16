@@ -18,18 +18,20 @@ class Root extends Component {
             </div>
 
             <div className="links">
-              <a className="btn_one" href="#praxisteam">
-                <div className="btn_txt_one">Erfahren Sie mehr über uns.</div>
-                <div className="btn_one_in" href="#praxisteam"></div>
-              </a>
+              <div className="center">
+                <a className="btn_one" href="#praxisteam">
+                  <div className="btn_txt_one">Erfahren Sie mehr über uns.</div>
+                  <div className="btn_one_in" href="#praxisteam"></div>
+                </a>
 
-              <br></br>
-              <a className="btn_two" href="/leistungsspektrum">
-                <div className="btn_txt_two">
-                  Leistungen, die wir für Sie anbieten.
-                </div>
-                <div className="btn_two_in"></div>
-              </a>
+                <br></br>
+                <a className="btn_two" href="/leistungsspektrum">
+                  <div className="btn_txt_two">
+                    Leistungen, die wir für Sie anbieten.
+                  </div>
+                  <div className="btn_two_in"></div>
+                </a>
+              </div>
             </div>
 
             <br></br>

@@ -70,19 +70,21 @@ class Hover_img extends Component {
               <DisplayOver className="hovering">
                 <Hover>
                   <div className="doc_scroll_text">
-                    <SubTitle>
-                      <p className="doc_head">Unser Praxisteam</p>
-                      <p className="doc_content">
-                        Die Allgemeinarztpraxis besteht seit dem Jahr 1993. Bis
-                        heute liegt es uns am Herzen, dass unsere PatientINNEN
-                        optimal versorgt werden. Uns ist es wichtig, dass Sie
-                        sich bei uns gut aufgehoben fühlen.
-                      </p>
-                    </SubTitle>
-                    <div className="doc_sub">
-                      <div className="doc_btn"></div>
+                    <div className="center">
+                      <SubTitle>
+                        <p className="doc_head">Unser Praxisteam</p>
+                        <p className="doc_content">
+                          Die Allgemeinarztpraxis besteht seit dem Jahr 1993.
+                          Bis heute liegt es uns am Herzen, dass unsere
+                          PatientINNEN optimal versorgt werden. Uns ist es
+                          wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
+                        </p>
+                      </SubTitle>
+                      <div className="doc_sub">
+                        <div className="doc_btn"></div>
 
-                      <Link to="/praxisteam">Mehr übers Praxisteam</Link>
+                        <Link to="/praxisteam">Mehr übers Praxisteam</Link>
+                      </div>
                     </div>
                   </div>
                 </Hover>

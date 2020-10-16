@@ -18,15 +18,9 @@
       //   background-position: center;
 
       .doc_scroll_text {
-        // justify-self: center;
-        // align-self: center;
-        // width: 10%;
-        padding-top: 80px;
-
-        //letter-spacing: 1px;
-
-        // text-align: center;
+        padding: 80px;
         color: #ffffff;
+
         .doc_head {
           font-size: 400%;
           text-align: center;
@@ -92,13 +86,6 @@
           }
         }
       }
-      // .button {
-      //   visibility: visible;
-      //   padding: 30px 250px 0px 250px;
-      //   a {
-      //     font-size: 120%;
-      //   }
-      // }
     }
   }
 }

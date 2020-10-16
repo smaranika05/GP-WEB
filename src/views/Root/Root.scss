@@ -120,30 +120,34 @@ h1 {
         text-align: center;
       }
       .links {
-        align-self: center;
-        padding-left: 1%;
-        .btn_one {
-          width: 100px;
-          height: 50px;
-          .btn_txt_one {
-            font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        //padding-left: 1%;
+        .center {
+          max-width: 80%;
+          .btn_one {
+            width: 100px;
+            height: 50px;
+            .btn_txt_one {
+              font-size: 12px;
+            }
+            .btn_one_in {
+              padding: 10px;
+            }
           }
-          .btn_one_in {
-            padding: 10px;
-          }
-        }
-        .btn_two {
-          width: 100px;
-          height: 50px;
-          .btn_txt_two {
-            font-size: 12px;
-          }
-          .btn_two_in {
-            padding: 10px;
+          .btn_two {
+            width: 100px;
+            height: 50px;
+            .btn_txt_two {
+              font-size: 12px;
+            }
+            .btn_two_in {
+              padding: 10px;
+            }
           }
         }
       }
-
       //  align-self: center;
       //margin-left: 5%;
     }
@@ -153,7 +157,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
   .doctorRoom {
     width: 100%;
     flex-direction: column;
@@ -196,9 +200,5 @@ h1 {
     .left_content {
       padding: 100px 20px 10px 20px;
     }
-    // .right_content {
-    //   img {
-    //   }
-    // }
   }
 }
