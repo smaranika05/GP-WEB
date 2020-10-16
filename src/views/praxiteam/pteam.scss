@@ -95,9 +95,9 @@
     .Hover_img {
       .background_img {
         background-image: url("./../../assets/img/Mask Group-1.png");
-        background-size: 100%;
-        height: min-content;
-        background-position: center;
+        background-size: cover;
+        background-position: initial;
+        height: 410px;
         .hovering {
           display: none;
         }
@@ -106,13 +106,13 @@
             font-size: 200%;
           }
           .doc_content {
-            // padding: 0px 20px 0px 20px;
+            padding: 0px 20px 0px 20px;
 
             font-size: 80%;
             letter-spacing: 1px;
           }
           .doc_sub {
-            padding: 20px 80px 0px 80px;
+            padding: 0px 80px 0px 80px;
             font-size: 100%;
           }
         }

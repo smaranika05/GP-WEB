@@ -9,7 +9,7 @@ class Root extends Component {
       <div>
         <div className="doctorRoom">
           <div className="left_content">
-            <div className="content">
+            <div className="center">
               <h1>Wir sind für Sie da.</h1>
               <p style={{ fontFamily: "lato", fontSize: "16px" }}>
                 Seit 1993 sorgen wir, das Team der Allgemeinarztpraxis Dr. med.
@@ -38,32 +38,34 @@ class Root extends Component {
             <br></br>
             <br></br>
             <div className="address">
-              <p
-                style={{
-                  fontFamily: "lato",
-                  fontSize: "16px",
-                  display: "flex",
-                  alignItems: "center",
-                }}
-              >
-                <CgPhone size="20px" color="#5ecd73" />
-                09732-1247
-              </p>
-              <p
-                style={{
-                  fontFamily: "lato",
-                  fontSize: "16px",
-                  display: "flex",
-                  alignItems: "center",
-                }}
-              >
-                <MdLocationOn size="22px" color="#5ecd73" />
-                Kissinger Str. 42, 97762 Hammelburg
-              </p>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
+              <div className="center">
+                <p
+                  style={{
+                    fontFamily: "lato",
+                    fontSize: "16px",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <CgPhone size="20px" color="#5ecd73" />
+                  09732-1247
+                </p>
+                <p
+                  style={{
+                    fontFamily: "lato",
+                    fontSize: "16px",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <MdLocationOn size="22px" color="#5ecd73" />
+                  Kissinger Str. 42, 97762 Hammelburg
+                </p>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+              </div>
             </div>
           </div>
           <div className="right_content">

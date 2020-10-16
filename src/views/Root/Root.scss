@@ -13,7 +13,7 @@ h1 {
   // Left container
 
   .left_content {
-    //text-align: center;
+    text-align: center;
     float: left;
     width: 50%;
     padding: 150px 80px 10px 80px;
@@ -109,7 +109,7 @@ h1 {
     }
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 700px) {
   .doctorRoom {
     width: 100%;
     flex-direction: column;
@@ -130,7 +130,7 @@ h1 {
             width: 100px;
             height: 50px;
             .btn_txt_one {
-              font-size: 12px;
+              font-size: 14px;
             }
             .btn_one_in {
               padding: 10px;
@@ -140,7 +140,7 @@ h1 {
             width: 100px;
             height: 50px;
             .btn_txt_two {
-              font-size: 12px;
+              font-size: 14px;
             }
             .btn_two_in {
               padding: 10px;
@@ -151,43 +151,13 @@ h1 {
       //  align-self: center;
       //margin-left: 5%;
     }
-    .right_content {
-      display: none;
-    }
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .doctorRoom {
-    width: 100%;
-    flex-direction: column;
-    .left_content {
-      width: 90%;
-      padding: 100px 20px 10px 20px;
-      .content {
-        text-align: center;
+    .address {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .center {
+        width: max-content;
       }
-      .links {
-        align-self: center;
-        padding-left: 1%;
-        .btn_one {
-          width: 200px;
-          height: 50px;
-          .btn_txt_one {
-            font-size: 12px;
-          }
-        }
-        .btn_two {
-          width: 200px;
-          height: 50px;
-          .btn_txt_two {
-            font-size: 12px;
-          }
-        }
-      }
-
-      //  align-self: center;
-      //margin-left: 5%;
     }
     .right_content {
       display: none;
