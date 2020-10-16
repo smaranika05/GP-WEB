@@ -8,6 +8,9 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      img {
+        max-width: 100%;
+      }
       //width: "300px";
       height: "100vh";
       //  text-align: center;
@@ -106,8 +109,8 @@
       .background_img {
         background-image: url("./../../assets/img/Mask Group-1.png");
         background-size: 100%;
-        height: 450px;
-        background-position: bottom;
+        height: min-content;
+        background-position: center;
         .hovering {
           display: none;
         }

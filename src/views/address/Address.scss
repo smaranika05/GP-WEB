@@ -4,13 +4,9 @@
   .top_wrapper {
     display: flex;
     width: 100%;
-    padding: 50px 50px 0px 80px;
+    padding: 50px 0px 100px 100px;
     .descNimg {
-      width: 35%;
-      padding: 0px 10px 0px 10px;
-      //height: 60%;
-      // margin-left: 5%;
-      // padding-top: 40px;
+      width: 30%;
       float: left;
       text-align: left;
       font-family: Lato;
@@ -19,7 +15,7 @@
       font-size: 20px;
       line-height: 16px;
       p {
-        margin: 2%;
+        margin: 2.5%;
       }
     }
 
@@ -27,17 +23,9 @@
       float: right;
 
       img {
-        background-size: contain;
+        object-fit: 100%;
       }
     }
-  }
-
-  .map {
-    width: 90%;
-    height: 30%;
-    padding: 20px 20px 20px 20px;
-    // padding-top: 400px;
-    margin-left: 5%;
   }
 }
 

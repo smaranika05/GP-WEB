@@ -14,17 +14,16 @@ class Impressum extends Component {
           <div className="header">Impressum</div>
           <div className="border"></div>
           <div className="main">
-            <h2 style={{ color: "#5ecd73" }}>
+            <h3 style={{ color: "#5ecd73" }}>
               Impressum - Pflichtangaben nach dem Telemediengesetz (TMG, §5)
-            </h2>
+            </h3>
 
             <div class="body">
               <p style={{ color: "#5ecd73" }}>Name und Praxisanschrift:</p>
               <p>
                 Allgemeinarztpraxis Dr. med. Ottmar Dettner <br></br>Kissinger
-                Str. 42<br></br> 97762 Hammelburg <br></br> Telefon: 09732 /
-                1247 <br></br> Fax: 09732 / 1869 <br></br>E-Mail:
-                dr.dettner@gmail.com
+                Str. 42<br></br> 97762 Hammelburg <br></br> Telefon: 09732-1247{" "}
+                <br></br> Fax: 09732-1869 <br></br>E-Mail: dr.dettner@gmail.com
               </p>
             </div>
             <br></br>
@@ -41,7 +40,15 @@ class Impressum extends Component {
               <p>
                 Bayerische Landesärztekammer <br></br> Mühlbaurstraße 16{" "}
                 <br></br>
-                81677 München <br></br> Webpräsenz: https://www.blaek.de/
+                81677 München <br></br> Webpräsenz:{" "}
+                <a
+                  href="https://www.blaek.de/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#393939", textDecoration: "none" }}
+                >
+                  https://www.blaek.de/
+                </a>
               </p>
             </div>
             <br></br>
@@ -49,7 +56,15 @@ class Impressum extends Component {
               <p style={{ color: "#5ecd73" }}>Zuständige Aufsichtsbehörde:</p>
               <p>
                 Kassenärztliche Vereinigung <br></br> 80687 München <br></br>
-                Elsenheimerstraße 39 <br></br> Webpräsenz: https://www.kvb.de
+                Elsenheimerstraße 39 <br></br> Webpräsenz:{" "}
+                <a
+                  href="https://www.kvb.de"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#393939", textDecoration: "none" }}
+                >
+                  https://www.kvb.de
+                </a>
               </p>
             </div>
             <br></br>
@@ -75,8 +90,16 @@ class Impressum extends Component {
             <div class="body">
               <p style={{ color: "#5ecd73" }}>Berufsrechtliche Regelungen:</p>
               <p>
-                Es gilt die Berufsordnung der Landesärztekammer Bayern (siehe
-                https://www.blaek.de/).
+                Es gilt die Berufsordnung der Landesärztekammer Bayern (siehe{" "}
+                <a
+                  href="https://www.blaek.de/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#393939", textDecoration: "none" }}
+                >
+                  https://www.blaek.de/
+                </a>
+                ).
               </p>
             </div>
 
@@ -86,8 +109,16 @@ class Impressum extends Component {
                 Konzeption & Realisierung dieser Webseite:
               </p>
               <p>
-                softsourced UG (siehe https://softsourced.de/)
-                <br></br> E-Mail: info@softsourced.de
+                softsourced UG (siehe{" "}
+                <a
+                  href="https://softsourced.de/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#393939", textDecoration: "none" }}
+                >
+                  https://softsourced.de/
+                </a>
+                )<br></br> E-Mail: info@softsourced.de
               </p>
             </div>
             <div>
@@ -102,14 +133,22 @@ class Impressum extends Component {
                 Pflichtgemäß erfolgt hier der Hinweis für Verbraucher, dass die
                 Europäische Kommission eine Plattform für die
                 Online-Streitbeilegung anbietet (ohne die Notwendigkeit eines
-                Gerichts): https://ec.europa.eu/consumers/odr. Unsere
-                E-Mail-Adresse finden Sie oben im Impressum. Gleichzeitig
-                erfolgt hier der Hinweis, dass wir nicht bereit sind, uns am
-                Streitbeilegungsverfahren im Rahmen der Europäischen
-                Online-Streitbeilegungs-Plattform zu beteiligen. Sollten Sie
-                Kontakt mit uns aufnehmen wollen, so melden Sie sich bitte per
-                E-Mail oder telefonisch. Die Kontaktdaten finden Sie oben im
-                Impressum.
+                Gerichts):{" "}
+                <a
+                  href="https://ec.europa.eu/consumers/odr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#393939", textDecoration: "none" }}
+                >
+                  https://ec.europa.eu/consumers/odr
+                </a>
+                . Unsere E-Mail-Adresse finden Sie oben im Impressum.
+                Gleichzeitig erfolgt hier der Hinweis, dass wir nicht bereit
+                sind, uns am Streitbeilegungsverfahren im Rahmen der
+                Europäischen Online-Streitbeilegungs-Plattform zu beteiligen.
+                Sollten Sie Kontakt mit uns aufnehmen wollen, so melden Sie sich
+                bitte per E-Mail oder telefonisch. Die Kontaktdaten finden Sie
+                oben im Impressum.
               </p>
             </div>
 

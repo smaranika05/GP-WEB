@@ -60,15 +60,6 @@ const Background = styled.div({
   },
 });
 
-// const CTA = styled.a({
-//   position: "absolute",
-//   fontfamily: "Lato",
-//   fontstyle: "normal",
-//   fontsize: "100%",
-//   color: "#5ecd73",
-//   to:''
-//});
-
 class Hover_img extends Component {
   render() {
     return (
@@ -102,11 +93,9 @@ class Hover_img extends Component {
         <div className="bottom">
           <p>Unser Praxisteam</p>
           <p>
-
-          Die Allgemeinarztpraxis besteht seit dem Jahr 1993. Bis
-                        heute liegt es uns am Herzen, dass unsere PatientINNEN
-                        optimal versorgt werden. Uns ist es wichtig, dass Sie
-                        sich bei uns gut aufgehoben fühlen.
+            Die Allgemeinarztpraxis besteht seit dem Jahr 1993. Bis heute liegt
+            es uns am Herzen, dass unsere PatientINNEN optimal versorgt werden.
+            Uns ist es wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
           </p>
           <div>
             <Link to="/praxisteam">Mehr übers Praxisteam</Link>

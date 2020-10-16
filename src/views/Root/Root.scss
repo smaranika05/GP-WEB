@@ -41,10 +41,10 @@ h1 {
         //Text
         .btn_txt_one {
           min-width: max-content;
-          margin: 14px 4px 14px 19px;
+          margin: 14px 4px 14px 14px;
           font-family: Lato;
           font-style: normal;
-          font-size: 110%;
+          font-size: 18px;
           color: #ffffff;
         }
         //whit button
@@ -52,14 +52,12 @@ h1 {
           background-image: url("./../../assets//img//Vector.png");
           background-repeat: no-repeat;
           background-position: center;
-          padding: 6%;
+          padding: 15px;
           background-color: #ffffff;
           border: none;
           color: white;
-          // display: inline-block;
-          // margin: 2% 82%;
           cursor: pointer;
-          border-radius: 50%;
+          border-radius: 20px;
         }
       }
       .btn_two {
@@ -75,10 +73,10 @@ h1 {
         //Text
         .btn_txt_two {
           min-width: max-content;
-          margin: 14px 4px 14px 19px;
+          margin: 14px 4px 14px 14px;
           font-family: Lato;
           font-style: normal;
-          font-size: 110%;
+          font-size: 18px;
           color: #ffffff;
         }
         //whit button
@@ -86,14 +84,12 @@ h1 {
           background-image: url("./../../assets//img//Vector.png");
           background-repeat: no-repeat;
           background-position: center;
-          padding: 5%;
+          padding: 15px;
           background-color: #ffffff;
           border: none;
           color: white;
-          // display: inline-block;
-          // margin: 2% 82%;
           cursor: pointer;
-          border-radius: 50%;
+          border-radius: 20px;
         }
       }
     }
@@ -105,7 +101,6 @@ h1 {
     display: flex;
     float: left;
     width: auto;
-
     align-self: flex-end;
     img {
       align-self: flex-end;
@@ -114,8 +109,7 @@ h1 {
     }
   }
 }
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 300px) {
   .doctorRoom {
     width: 100%;
     flex-direction: column;
@@ -126,19 +120,26 @@ h1 {
         text-align: center;
       }
       .links {
+        align-self: center;
         padding-left: 1%;
         .btn_one {
-          width: 200px;
+          width: 100px;
           height: 50px;
           .btn_txt_one {
-            font-size: 100%;
+            font-size: 12px;
+          }
+          .btn_one_in {
+            padding: 10px;
           }
         }
         .btn_two {
-          width: 200px;
+          width: 100px;
           height: 50px;
           .btn_txt_two {
-            font-size: 100%;
+            font-size: 12px;
+          }
+          .btn_two_in {
+            padding: 10px;
           }
         }
       }
@@ -152,7 +153,45 @@ h1 {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
+  .doctorRoom {
+    width: 100%;
+    flex-direction: column;
+    .left_content {
+      width: 90%;
+      padding: 100px 20px 10px 20px;
+      .content {
+        text-align: center;
+      }
+      .links {
+        align-self: center;
+        padding-left: 1%;
+        .btn_one {
+          width: 200px;
+          height: 50px;
+          .btn_txt_one {
+            font-size: 12px;
+          }
+        }
+        .btn_two {
+          width: 200px;
+          height: 50px;
+          .btn_txt_two {
+            font-size: 12px;
+          }
+        }
+      }
+
+      //  align-self: center;
+      //margin-left: 5%;
+    }
+    .right_content {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1020px) {
   .doctorRoom {
     .left_content {
       padding: 100px 20px 10px 20px;
