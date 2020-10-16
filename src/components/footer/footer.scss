@@ -1,6 +1,7 @@
 .footer {
   color: #7b7b7b;
   background: #1a1a1a;
+}
   p {
     margin: 3px;
   }
@@ -84,7 +85,7 @@
       }
     }
   }
-}
+
 @media screen and (max-width: 900px) {
   .footer {
     height: 100%;
