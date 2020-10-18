@@ -6,12 +6,12 @@
   h1 {
     text-align: center;
   }
-
+  // padding-top: 100px;
   height: auto;
   overflow: hidden;
 }
 .time {
-  padding-top: 50px;
+  padding-top: 100px;
   height: auto;
   overflow: hidden;
   h1 {
@@ -19,16 +19,9 @@
   }
 }
 
-.doct {
-  padding-top: 130px;
-  overflow: hidden;
-  h1 {
-    text-align: center;
-  }
-}
 .gallery {
   overflow: hidden;
-
+  padding-top: 100px;
   h1 {
     text-align: center;
   }
@@ -49,13 +42,7 @@
       font-size: 30px;
     }
   }
-  .doct {
-    padding-top: 50px;
-    h1 {
-      text-align: center;
-      font-size: 30px;
-    }
-  }
+
   .gallery {
     padding-top: 50px;
     h1 {
@@ -64,4 +51,3 @@
     }
   }
 }
-@me

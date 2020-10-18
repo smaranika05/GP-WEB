@@ -93,13 +93,16 @@ class Hover_img extends Component {
           </div>
         </div>
         <div className="bottom">
-          <p>Unser Praxisteam</p>
-          <p>
+          <h2 style={{ fontWeight: "normal" }}>Unser Praxisteam</h2>
+          <p style={{ letterSpacing: "0.9px", wordSpacing: "1px" }}>
             Die Allgemeinarztpraxis besteht seit dem Jahr 1993. Bis heute liegt
             es uns am Herzen, dass unsere PatientINNEN optimal versorgt werden.
             Uns ist es wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
           </p>
-          <div>
+
+          <div className="doc_sub">
+            <div className="doc_btn"></div>
+
             <Link to="/praxisteam">Mehr übers Praxisteam</Link>
           </div>
         </div>

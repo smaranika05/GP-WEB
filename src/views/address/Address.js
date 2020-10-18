@@ -15,7 +15,7 @@ class Address extends Component {
     return (
       <>
         <div className="addr">
-          <h1 className="header"> HIER FINDEN SIE UNS</h1>
+          <div className="header"> HIER FINDEN SIE UNS </div>
           <div className="border"></div>
           <div className="top_wrapper">
             <div className="descNimg">

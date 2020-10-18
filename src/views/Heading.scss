@@ -1,7 +1,7 @@
 .header {
   font-family: Lato;
   font-style: normal;
-  font-weight: regular;
+  //font-weight: regular;
   font-size: 260%;
   //line-height: 54px;
   text-align: center;
@@ -20,23 +20,40 @@
   border: 1px solid #bcbcbc;
 }
 @media screen and (max-width: 1147px) {
+  .header {
+    font-size: 30px;
+  }
   .border {
     width: 40%;
     margin-left: 30%;
   }
-  .header {
-    align-items: center;
-    font-size: 30px;
-  }
 }
 
 @media screen and (max-width: 700px) {
+  .header {
+    font-size: 30px;
+  }
   .border {
     width: 60%;
     margin-left: 20%;
   }
+}
+@media screen and (max-width: 500px) {
   .header {
-    align-items: center;
-    font-size: 20px;
+    font-size: 22px;
+  }
+  .border {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header {
+    font-size: 18px;
+  }
+  .border {
+    width: 60%;
+    margin-left: 20%;
   }
 }

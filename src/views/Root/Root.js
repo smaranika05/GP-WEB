@@ -9,7 +9,7 @@ class Root extends Component {
       <div>
         <div className="doctorRoom">
           <div className="left_content">
-            <div className="center">
+            <div className="content">
               <h1>Wir sind für Sie da.</h1>
               <p style={{ fontFamily: "lato", fontSize: "16px" }}>
                 Seit 1993 sorgen wir, das Team der Allgemeinarztpraxis Dr. med.
@@ -38,7 +38,7 @@ class Root extends Component {
             <br></br>
             <br></br>
             <div className="address">
-              <div className="center">
+              <div className="addr">
                 <p
                   style={{
                     fontFamily: "lato",

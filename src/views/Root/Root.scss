@@ -5,27 +5,29 @@ h1 {
   font-size: 55px;
   color: #393939;
 }
-
-// root section
 .doctorRoom {
-  // width: 100%;
+  width: 100%;
   display: flex;
-  // Left container
-
   .left_content {
-    text-align: center;
     float: left;
+    //padding: 150px 10px 10px 100px;
+    padding: 100px 0px 0px 100px;
     width: 50%;
-    padding: 150px 80px 10px 80px;
-    //padding: 50px 20px 10px 20px;
-    //padding-left: 10%;
     a {
       text-decoration: none;
     }
     .content {
+      justify-content: center;
       text-align: left;
+      p {
+        letter-spacing: 0.1px;
+      }
     }
+
     .links {
+      padding: 10px;
+      order: 5;
+
       //padding-left: 20%;
       .btn_one {
         justify-content: left;
@@ -36,15 +38,15 @@ h1 {
         background: #5ecd73;
         display: flex;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 10px;
         justify-content: center;
         //Text
         .btn_txt_one {
           min-width: max-content;
-          margin: 14px 4px 14px 14px;
+          margin: 10px 4px 14px 1px;
           font-family: Lato;
           font-style: normal;
-          font-size: 18px;
+          font-size: 16px;
           color: #ffffff;
         }
         //whit button
@@ -68,15 +70,15 @@ h1 {
         background: #5ecd73;
         display: flex;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 10px;
         justify-content: center;
         //Text
         .btn_txt_two {
-          min-width: max-content;
-          margin: 14px 4px 14px 14px;
+          // min-width: max-content;
+          margin: 10px 4px 14px 1px;
           font-family: Lato;
           font-style: normal;
-          font-size: 18px;
+          font-size: 16px;
           color: #ffffff;
         }
         //whit button
@@ -93,70 +95,87 @@ h1 {
         }
       }
     }
-    // .address {
-
-    // }
+    .address {
+      display: flex;
+      align-self: start;
+      //justify-content: center;
+      .center {
+        width: max-content;
+      }
+    }
   }
   .right_content {
     display: flex;
-    float: left;
+    float: right;
     width: auto;
-    align-self: flex-end;
+    flex-basis: auto;
+    //align-self: flex-end;
     img {
-      align-self: flex-end;
+      align-self: center;
+      //fl  ex-grow: 1;
+      // flex-shrink: 3;
+      flex-basis: auto;
       width: 100%;
+      object-fit: 100%;
       //height: 60%;
     }
   }
 }
+
 @media screen and (max-width: 700px) {
   .doctorRoom {
     width: 100%;
     flex-direction: column;
     .left_content {
-      width: 90%;
-      padding: 100px 20px 10px 20px;
+      width: fit-content;
+      // padding: 100px 20px 10px 20px;
+      padding: 30px;
       .content {
+        //justify-content: center;
         text-align: center;
+        p {
+          font-size: 24px;
+          //  padding: 20px;
+        }
       }
       .links {
+        // padding: 10px 0px 0px 0px;
         display: flex;
         align-items: center;
         justify-content: center;
-        //padding-left: 1%;
         .center {
-          max-width: 80%;
           .btn_one {
-            width: 100px;
+            width: 50px;
             height: 50px;
             .btn_txt_one {
               font-size: 14px;
             }
             .btn_one_in {
-              padding: 10px;
+              padding: 14px;
             }
           }
           .btn_two {
-            width: 100px;
+            width: 50px;
             height: 50px;
             .btn_txt_two {
               font-size: 14px;
             }
             .btn_two_in {
-              padding: 10px;
+              padding: 15px;
             }
           }
         }
       }
-      //  align-self: center;
-      //margin-left: 5%;
-    }
-    .address {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      .center {
-        width: max-content;
+
+      .address {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        height: min-content;
+        //width: min-content;
+        .center {
+          width: min-content;
+        }
       }
     }
     .right_content {
@@ -165,10 +184,10 @@ h1 {
   }
 }
 
-@media screen and (max-width: 1020px) {
-  .doctorRoom {
-    .left_content {
-      padding: 100px 20px 10px 20px;
-    }
-  }
-}
+// @media screen and (max-width: 1020px) {
+//   .doctorRoom {
+//     .left_content {
+//       padding: 100px 0px 0px 30px;
+//     }
+//   }
+// }

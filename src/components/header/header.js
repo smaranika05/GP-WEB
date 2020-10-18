@@ -44,7 +44,7 @@ class Header extends React.Component {
           useNavLink: true,
         },
         {
-          linkName: "Kollegin / Kollege gesucht",
+          linkName: "Kollegin/Kollege gesucht",
           linkAdd: "kollegegesucht",
           active: false,
           useNavLink: true,
@@ -112,7 +112,7 @@ class Header extends React.Component {
         </div>
         <div className="header-wrap" ref={this.headerNavbar}>
           <div className="brandLogo">
-            <Link smooth to="/">
+            <Link smooth to="/#root">
               <img src={logo} alt="logo" />
             </Link>
           </div>

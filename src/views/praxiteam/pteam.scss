@@ -8,59 +8,50 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      img {
-        max-width: 100%;
-      }
-      //width: "300px";
+
       height: "100vh";
-      //  text-align: center;
-      //   background-repeat: no-repeat;
-      //   background-position: center;
 
       .doc_scroll_text {
         padding: 80px;
         color: #ffffff;
-
-        .doc_head {
-          font-size: 400%;
-          text-align: center;
-        }
-        .doc_content {
-          //width: 50%;
-          //  width: 100%;
-          //  margin: 1rem auto;
-          // padding: 150px;
-          // padding-left: 150px;
-          padding: 0px 300px 0px 300px;
-          margin-right: auto;
-          margin-left: auto;
-          text-align: center;
-          // padding: ;
-          font-size: 120%;
-          text-align: justify;
-        }
-        .doc_sub {
-          display: flex;
-          padding: 0px 300px 0px 300px;
-          text-align: center;
-          .doc_btn {
-            width: 27px;
-            height: 27px;
-            background: #5ecd73;
-            background-image: url(./../../assets/img/Vector_two.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            border: none;
-            color: white;
-            display: inline-block;
-            margin: 0.12% 1%;
-            border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .center {
+          width: 50%;
+          .doc_head {
+            font-size: 400%;
+            text-align: center;
           }
-          a {
-            font-family: Lato;
-            font-style: normal;
-            font-size: 100%;
-            color: #5ecd73;
+          .doc_content {
+            text-align: center;
+
+            font-size: 120%;
+            text-align: justify;
+          }
+          .doc_sub {
+            display: flex;
+
+            text-align: center;
+            .doc_btn {
+              width: 27px;
+              height: 27px;
+              background: #5ecd73;
+              background-image: url(./../../assets/img/Vector_two.png);
+              background-repeat: no-repeat;
+              background-position: center;
+              border: none;
+              color: white;
+              display: inline-block;
+              margin: 0.12% 1%;
+              border-radius: 50%;
+            }
+            a {
+              font-family: Lato;
+              font-style: normal;
+              font-size: 100%;
+              color: #5ecd73;
+            }
           }
         }
       }
@@ -72,17 +63,22 @@
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   .hover_wrapper {
     .Hover_img {
       .background_img {
         .doc_scroll_text {
-          .doc_content {
-            padding: 0px 100px 0px 100px;
-            font-size: 150%;
-          }
-          .doc_sub {
-            padding: 0px 150px 0px 150px;
+          padding: 100px 20px 100px 20px;
+          .center {
+            .doc_head {
+              font-size: 50px;
+            }
+            .doc_content {
+              font-size: 20px;
+            }
+            .doc_sub {
+              font-size: 18px;
+            }
           }
         }
       }
@@ -95,39 +91,44 @@
     .Hover_img {
       .background_img {
         background-image: url("./../../assets/img/Mask Group-1.png");
-        background-size: cover;
-        background-position: initial;
+        background: size 100%;
         height: 410px;
+        background-position: 0 0;
         .hovering {
           display: none;
-        }
-        .doc_scroll_text {
-          .doc_head {
-            font-size: 200%;
-          }
-          .doc_content {
-            padding: 0px 20px 0px 20px;
-
-            font-size: 80%;
-            letter-spacing: 1px;
-          }
-          .doc_sub {
-            padding: 0px 80px 0px 80px;
-            font-size: 100%;
-          }
         }
       }
     }
     .bottom {
-      padding: 0px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       display: inline-block;
-      font-style: normal;
-      font-weight: normal;
       font-family: lato;
       text-align: center;
-
-      a {
-        color: #5ecd73;
+      padding: 0px 20px 0px 20px;
+      .doc_sub {
+        display: flex;
+        justify-content: center;
+        .doc_btn {
+          width: 27px;
+          height: 27px;
+          background: #5ecd73;
+          background-image: url(./../../assets/img/Vector_two.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          border: none;
+          color: white;
+          display: inline-block;
+          margin: -2px 10px;
+          border-radius: 50%;
+        }
+        a {
+          font-family: Lato;
+          font-style: normal;
+          font-size: 100%;
+          color: #5ecd73;
+        }
       }
     }
   }

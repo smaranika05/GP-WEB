@@ -10,30 +10,33 @@ class Service extends Component {
   };
   render() {
     return (
-      <div className="ser">
-        <div className="header">Leistungsspektrum</div>
-        <div className="border"></div>
-        <div className="listing">
-          <ul>
-            <li>Elektrokardiogramm (EKG): Ruhe , Belastung (Ergometrie)</li>
-            <li>Ultraschall: Bauch, Schilddrüse, Knöcheldruckmessung</li>
-            <li>Lungenfunktionstest (Spirometrie)</li>
-            <li>
-              Vorsorgeuntersuchungen: Gesundheitscheck, Hautkrebsvorsorge
-              (Hautkrebsscreening), Krebsvorsorge beim Mann
-            </li>
-            <li>Kleine chirurgische Eingriffe</li>
-            <li>
-              Disease-Management-Programme (DMP): Diabetes, Asthma / COPD, KHK
-            </li>
-            <li>Impfungen, Desensibilisierung</li>
-            <li>Laboruntersuchungen: Blut, Urin, Stuhl</li>
-            <li>Hausbesuche</li>
-            <li>Atteste und Gutachten</li>
-          </ul>
+      <>
+        <div className="ser">
+          <div className="header">Leistungsspektrum</div>
+          <div className="border"></div>
+
+          <div className="listing">
+            <ul>
+              <li>Elektrokardiogramm (EKG): Ruhe , Belastung (Ergometrie)</li>
+              <li>Ultraschall: Bauch, Schilddrüse, Knöcheldruckmessung</li>
+              <li>Lungenfunktionstest (Spirometrie)</li>
+              <li>
+                Vorsorgeuntersuchungen: Gesundheitscheck, Hautkrebsvorsorge
+                (Hautkrebsscreening), Krebsvorsorge beim Mann
+              </li>
+              <li>Kleine chirurgische Eingriffe</li>
+              <li>
+                Disease-Management-Programme (DMP): Diabetes, Asthma / COPD, KHK
+              </li>
+              <li>Impfungen, Desensibilisierung</li>
+              <li>Laboruntersuchungen: Blut, Urin, Stuhl</li>
+              <li>Hausbesuche</li>
+              <li>Atteste und Gutachten</li>
+            </ul>
+          </div>
         </div>
         <Footer />
-      </div>
+      </>
     );
   }
 }

@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div>
-       <Router>
+        <Router>
           <Header />
           <Route exact path="/" component={Home} />
           <Route exact path="/praxisteam" component={Team} />
@@ -31,12 +31,11 @@ class App extends Component {
           <Route exact path="/kontakt" component={Contact} />
           <Route exact path="/datenschutzerklaerung" component={PP} />
           <Route exact path="/impressum" component={Imp} />
-          <Route exact path="/Root" component={Root} />
+          <Route exact path="/root" component={Root} />
           <Route exact path="/Gallery" component={Gallery} />
           <Route exact path="/kollegegesucht" component={Kollege} />
           <Route path="#time" component={Time} />
         </Router>
-        
       </div>
     );
   }
