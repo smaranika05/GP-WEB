@@ -26,20 +26,20 @@
   height: 100%;
 }
 .height70 {
-  height: 70px;
+  height: 30px;
 }
 /*====== BG COLOR ======*/
 .dGray {
-  background-color: #333;
-}
-.white {
   background-color: #fff;
 }
+.white {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .white50 {
-  background-color: #ffffff80;
+  background-color: #5ecd73;
 }
 .black50 {
-  background-color: #00000080;
+  background-color: #fff;
 }
 /*====== FONT ======*/
 .fSize2 {
@@ -102,9 +102,9 @@
 
 /*====== CUSTOM ======*/
 .dot {
-  width: 10px;
+  width: 50px;
   height: 10px;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: background-color 1s ease-in-out;
 }
 

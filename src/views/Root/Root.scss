@@ -128,21 +128,18 @@ h1 {
     flex-direction: column;
     .left_content {
       width: fit-content;
-      // padding: 100px 20px 10px 20px;
       padding: 30px;
       .content {
-        //justify-content: center;
         text-align: center;
         p {
           font-size: 24px;
-          //  padding: 20px;
         }
       }
       .links {
-        // padding: 10px 0px 0px 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        //padding: 10px 0px 0px 10px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
         .center {
           .btn_one {
             width: 50px;
@@ -170,7 +167,7 @@ h1 {
       .address {
         display: flex;
         align-items: start;
-        justify-content: center;
+        justify-content: start;
         height: min-content;
         //width: min-content;
         .center {

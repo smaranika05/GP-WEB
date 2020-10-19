@@ -6,7 +6,7 @@
   //line-height: 54px;
   text-align: center;
   color: #393939;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .border {
@@ -22,6 +22,7 @@
 @media screen and (max-width: 1147px) {
   .header {
     font-size: 30px;
+    padding-top: 50px;
   }
   .border {
     width: 40%;
@@ -32,6 +33,7 @@
 @media screen and (max-width: 700px) {
   .header {
     font-size: 30px;
+    padding-top: 50px;
   }
   .border {
     width: 60%;
@@ -41,6 +43,7 @@
 @media screen and (max-width: 500px) {
   .header {
     font-size: 22px;
+    padding-top: 50px;
   }
   .border {
     width: 60%;
@@ -51,6 +54,7 @@
 @media screen and (max-width: 300px) {
   .header {
     font-size: 18px;
+    padding-top: 50px;
   }
   .border {
     width: 60%;

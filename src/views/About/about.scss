@@ -4,7 +4,7 @@
 
 .image_doc {
   justify-items: center;
-  padding-top: 5%;
+  padding-top: 130px;
   padding-left: 15%;
   img {
     justify-self: center;
@@ -33,6 +33,7 @@
 }
 @media screen and (max-width: 1147px) {
   .image_doc {
+    padding-top: 50px;
     img {
       object-fit: center;
     }
