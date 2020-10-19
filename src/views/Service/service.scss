@@ -25,9 +25,9 @@
       margin-left: -1em;
       font-size: 2em;
       position: relative;
-      top: 0.2em;
+      top: 6.5px;
       font-style: bold;
-      //left: 0.3em;
+      left: 10px;
     }
   }
 }
@@ -41,6 +41,8 @@
       }
       li::before {
         color: #5ecd73;
+        top: 5px;
+        left: 0.3em;
       }
     }
   }

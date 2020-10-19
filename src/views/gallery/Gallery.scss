@@ -48,6 +48,7 @@
 /*====== IMAGE ======*/
 .imgCover {
   object-fit: contain;
+  z-index: -100;
 }
 /*====== OVERFLOW ======*/
 .overflowH {

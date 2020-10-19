@@ -48,7 +48,7 @@ class Address extends Component {
             </div>
           </div>
         </div>
-        <Footer />
+        <Footer style={{ bottom: "0px" }} />
       </>
     );
   }

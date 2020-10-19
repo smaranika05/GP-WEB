@@ -1,10 +1,14 @@
 .addr {
   overflow-x: hidden;
+  // padding-bottom: 100px;
   // min-height: 100vh;
   .top_wrapper {
     display: flex;
     width: 100%;
-    padding: 50px 0px 100px 100px;
+    align-items: flex-start;
+    justify-items: flex-start;
+    padding: 50px;
+
     .descNimg {
       width: 30%;
       float: left;
@@ -20,56 +24,28 @@
     }
 
     .building {
-      float: right;
+      //  float: right;
 
       img {
-        object-fit: 100%;
+        width: 100%;
       }
     }
   }
 }
 
-// @media screen and (max-width: 750px) {
-//   .addr {
-//     .top_wrapper {
-//       // width: auto;
-//       // flex-direction: column;
-//       padding: 10px 0px 20px 50px;
-//       .descNimg {
-//         width: auto;
-//         text-align: center;
-//         // padding-left: 10px;
-//         // padding-right: 10px;
-//         width: auto;
-//         line-height: 20px;
-//         p {
-//           margin: 3%;
-//         }
-//       }
-//       .building {
-//         // width: auto;
-//         // float: inline-end;
-//         // padding: 0px 0px 0px 0px;
-//         // img {
-//         //   width: 100%;
-//         // }
-//         display: none;
-//       }
-//     }
-//   }
-// }
-
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .addr {
     .top_wrapper {
-      flex-direction: row;
-      padding: 10px 50px 10px 0px;
+      flex-direction: column;
+      padding: 0px 0px;
+      // width: 100%;
       .descNimg {
         //text-align: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: auto;
-        line-height: 20px;
+        width: 100%;
+        // padding: 50px;
+        //width: auto;
+        padding: 20px 20px;
+        line-height: 0.1;
         p {
           margin: 3%;
         }
@@ -79,6 +55,21 @@
         padding: 0px 0px 0px 0px;
         img {
           width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .addr {
+    .top_wrapper {
+      .descNimg {
+        font-size: 10px;
+      }
+      .building {
+        img {
+          object-fit: cover;
         }
       }
     }
