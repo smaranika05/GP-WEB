@@ -92,8 +92,13 @@
     .footer_wrap {
       font-size: 10px;
       .logo_footer {
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        padding: 10px;
         img {
-          width: 30px;
+          width: 35px;
+          object-fit: 100%;
         }
       }
     }
@@ -104,8 +109,9 @@
     .end_line {
       font-size: 10px;
       .right {
-        // padding-right: 0%;
-        // margin-left: 100px;
+        img {
+          width: 50px;
+        }
       }
     }
   }
