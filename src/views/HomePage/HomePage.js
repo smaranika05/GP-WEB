@@ -14,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="gp">
+        <div className="gp_wrapper">
         <div className="root" id="root">
           <Root />
         </div>
@@ -36,7 +37,8 @@ class App extends Component {
           <br></br>
           <Gallery />
         </div>
-        <Footer />
+        {/* <Footer /> */}
+      </div>
       </div>
     );
   }

@@ -10,6 +10,7 @@ class Kollege extends Component {
   render() {
     return (
       <>
+      
         <div className="Kollege_wrapper">
           <div className="left_content">
             <div className="button"></div>
@@ -35,9 +36,9 @@ class Kollege extends Component {
               </p>
             </div>
           </div>
-        </div>
-
-        <Footer />
+       
+</div>
+        {/* <Footer /> */}
       </>
     );
   }

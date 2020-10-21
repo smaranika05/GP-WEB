@@ -15,6 +15,7 @@ class Address extends Component {
     return (
       <>
         <div className="addr">
+          <div className="add_wrapper">
           <div className="header"> HIER FINDEN SIE UNS </div>
           <div className="border"></div>
           <div className="top_wrapper">
@@ -31,7 +32,7 @@ class Address extends Component {
               <p style={{ color: "#5ECD73" }}>Adresse</p>
               <p> Kissinger Str. 42</p>
               <p>97762 Hammelburg</p>
-              <br></br>
+              
               <p>1. Stock - Treppenaufgang</p>
               <br></br>
               <p style={{ color: "#5ECD73" }}>Telefon</p>
@@ -48,7 +49,8 @@ class Address extends Component {
             </div>
           </div>
         </div>
-        <Footer style={{ bottom: "0px" }} />
+        </div>
+        {/* <Footer style={{ bottom: "0px" }} /> */}
       </>
     );
   }

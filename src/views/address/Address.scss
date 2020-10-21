@@ -2,12 +2,22 @@
   overflow-x: hidden;
   // padding-bottom: 100px;
   // min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  .add_wrapper{
+    max-width: 100%;
+
+  
   .top_wrapper {
     display: flex;
     width: 100%;
     align-items: flex-start;
     justify-items: flex-start;
     padding: 50px;
+    line-height: 10px;
 
     .descNimg {
       width: 30%;
@@ -65,7 +75,8 @@
   .addr {
     .top_wrapper {
       .descNimg {
-        font-size: 10px;
+        font-size: 16px;
+        line-height: 10px;
       }
       .building {
         img {
@@ -74,4 +85,5 @@
       }
     }
   }
+}
 }

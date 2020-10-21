@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // import Header from "./components/header/header";
-//import Footer from "./components/footer/footer";
+import Footer from "./components/footer/footer";
 import Home from "./views/HomePage/HomePage";
 import Team from "./views/Teams/team";
 import Service from "./views/Service/service";
@@ -35,6 +35,7 @@ class App extends Component {
           <Route exact path="/Gallery" component={Gallery} />
           <Route exact path="/kollegegesucht" component={Kollege} />
           <Route path="#time" component={Time} />
+          <Footer/>
         </Router>
       </div>
     );

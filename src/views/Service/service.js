@@ -12,6 +12,7 @@ class Service extends Component {
     return (
       <>
         <div className="ser">
+        <div className="ser_wrapper">
           <div className="header">Leistungsspektrum</div>
           <div className="border"></div>
 
@@ -35,7 +36,8 @@ class Service extends Component {
             </ul>
           </div>
         </div>
-        <Footer />
+        </div>
+        {/* <Footer /> */}
       </>
     );
   }

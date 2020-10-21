@@ -107,8 +107,8 @@ h1 {
   .right_content {
     display: flex;
     float: right;
-    width: auto;
-    flex-basis: auto;
+    width: 50%;
+    justify-content: flex-end;
     //align-self: flex-end;
     img {
       align-self: center;

@@ -4,6 +4,11 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
+  
+  align-items: center;
+  justify-content: center;
+  .ser_wrapper{
+    max-width: 100%;
   .listing {
     margin-left: 20%;
     letter-spacing: 1px;
@@ -30,6 +35,7 @@
       left: 10px;
     }
   }
+}
 }
 
 @media screen and (max-width: 700px) {

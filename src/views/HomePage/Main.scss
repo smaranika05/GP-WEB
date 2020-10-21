@@ -1,6 +1,11 @@
 .gp {
   overflow-x: hidden;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+.gp_wrapper{
+  max-width: 100%;
 
 .prax {
   h1 {
@@ -26,7 +31,7 @@
     text-align: center;
   }
 }
-
+}}
 @media screen and (max-width: 1000px) {
   .prax {
     padding-top: 0px;

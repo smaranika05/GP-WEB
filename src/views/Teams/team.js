@@ -12,6 +12,7 @@ class Team extends Component {
   render() {
     return (
       <>
+      <div className="team">
         <div className="team_wrapper">
           <div className="header">Das Praxisteam</div>
           <div className="border"></div>
@@ -48,7 +49,8 @@ class Team extends Component {
             </div>
           </div>
         </div>
-        <Footer />
+        </div>
+       
       </>
     );
   }

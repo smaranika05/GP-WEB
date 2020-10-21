@@ -9,8 +9,10 @@ class Impressum extends Component {
   };
   render() {
     return (
-      <>
+      <><div className="imp">
         <div className="im_wrapper">
+       
+
           <div className="header">Impressum</div>
           <div className="border"></div>
           <div className="main">
@@ -220,7 +222,7 @@ class Impressum extends Component {
             </div>
           </div>
         </div>
-        <Footer />
+      </div>
       </>
     );
   }

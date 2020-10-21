@@ -1,20 +1,16 @@
 .Kollege_wrapper {
   overflow-x: hidden;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   padding-bottom: 100px;
-  // flex-direction: column;
-  //min-height: 100vh;
   .left_content {
     float: left;
     width: 10%;
-    flex-grow: 1;
-    // padding-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     .button {
-      background-color: #4caf50; /* Green */
+      background-color: #4CAF50; /* Green */
       border: none;
       padding: 50px 80px;
     }
@@ -25,10 +21,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    img {
-    }
-    // padding-top: 20px;
-    // padding-left: 0px;
   }
   .right_content {
     float: right;
@@ -51,14 +43,13 @@
     }
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .Kollege_wrapper {
     overflow-x: hidden;
     flex-direction: column;
     .left_content {
       //   .button {
-      //     background-color: #4caf50; /* Green */
+      //     background-color: #4CAF50; /* Green */
       //     border: none;
       //     padding: 50px 1000px;
       //   }
@@ -100,7 +91,6 @@
     }
   }
 }
-
 @media screen and (max-width: 700px) {
   .Kollege_wrapper {
     // width: 100%;
@@ -136,3 +126,24 @@
     }
   }
 }
+@media screen and (min-width: 1500px) {
+  .Kollege_wrapper {
+    .left_content {
+      display: none;
+    }
+    .image {
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+    .right_content {
+      width: 40%;
+      // align-items: flex-start;
+      // justify-content: flex-start;
+    }
+  }
+}
+
+
+
+
+

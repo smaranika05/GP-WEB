@@ -1,4 +1,10 @@
+.imp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 .im_wrapper {
+ 
   padding-bottom: 100px;
   overflow-x: hidden;
   font-family: Lato;
@@ -10,6 +16,7 @@
   word-break: keep-all;
   word-spacing: 3px;
   .main {
+    
     padding: 20px 200px 20px 200px;
     line-height: 1.5;
     text-align: left;
@@ -20,6 +27,7 @@
       margin: 0px;
     }
   }
+}
 }
 
 @media only screen and (max-width: 1200px) {
