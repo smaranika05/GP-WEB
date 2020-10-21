@@ -1,58 +1,57 @@
-.team{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 .team_wrapper {
-  max-width: 100%;
   overflow-x: hidden;
   padding-bottom: 100px;
-  .image_team {
-    padding: 20px 200px 10px 200px;
-    img {
-      width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .wrap_content {
+    max-width: 100%;
+    .image_team {
+      padding: 20px 200px 10px 200px;
+      img {
+        width: 100%;
+      }
     }
-  
 
-  .content_team {
-    padding: 20px 250px 10px 200px;
-    color: #393939;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 1.5;
-    margin-top: 0px;
-    text-align: left;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-    ul li {
+    .content_team {
+      padding: 20px 250px 10px 200px;
       color: #393939;
-      list-style: none;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
       font-size: 23px;
-      padding: 0 0 0 em;
-      text-indent: -0.5em;
-      margin: 1%;
-      position: relative;
-    }
+      line-height: 1.5;
+      margin-top: 0px;
+      text-align: left;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
+      ul li {
+        color: #393939;
+        list-style: none;
+        font-size: 23px;
+        padding: 0 0 0 em;
+        text-indent: -0.5em;
+        margin: 1%;
+        position: relative;
+      }
 
-    ul li::before {
-      color: #5ecd73;
-      list-style-type: square;
-      content: "\25AA";
-      font-weight: bold;
-      font-size: 3em;
-      left: -0.5em;
-      position: absolute;
-      top: -0.5em;
-    }
-    a {
-      text-decoration: none;
-      color: #5ecd73;
-      font-weight: 500;
+      ul li::before {
+        color: #5ecd73;
+        list-style-type: square;
+        content: "\25AA";
+        font-weight: bold;
+        font-size: 3em;
+        left: -0.5em;
+        position: absolute;
+        top: -0.5em;
+      }
+      a {
+        text-decoration: none;
+        color: #5ecd73;
+        font-weight: 500;
+      }
     }
   }
-}
-}
 }
 @media only screen and (max-width: 1147px) {
   .team_wrapper {
