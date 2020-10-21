@@ -55,6 +55,7 @@
 }
 @media only screen and (max-width: 1147px) {
   .team_wrapper {
+    .wrap_content{
     .image_team {
       padding: 10px 20px 10px 20px;
       font-size: 20px;
@@ -73,10 +74,12 @@
     }
   }
 }
+}
 
 @media only screen and (max-width: 700px) {
   .team_wrapper {
     word-spacing: 1px;
+    .wrap_content{
     .image_team {
       padding: 10px 20px 10px 20px;
       img {
@@ -98,4 +101,5 @@
       }
     }
   }
+}
 }

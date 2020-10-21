@@ -1,68 +1,31 @@
 .addr {
   overflow-x: hidden;
-  // padding-bottom: 100px;
-  // min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  
-
-  .add_wrapper{
+  align-items: center;
+  .addr_wrapper {
     max-width: 100%;
-
-  
-  .top_wrapper {
-    display: flex;
-    width: 100%;
-    align-items: flex-start;
-    justify-items: flex-start;
-    padding: 50px;
-    line-height: 10px;
-
-    .descNimg {
-      width: 30%;
-      float: left;
-      text-align: left;
-      font-family: Lato;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 16px;
-      p {
-        margin: 2.5%;
-      }
-    }
-
-    .building {
-      //  float: right;
-
-      img {
-        width: 100%;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .addr {
     .top_wrapper {
-      flex-direction: column;
-      padding: 0px 0px;
-      // width: 100%;
+      display: flex;
+      width: 100%;
+      align-items: flex-start;
+      justify-items: flex-start;
+      padding: 50px;
       .descNimg {
-        //text-align: center;
-        width: 100%;
-        // padding: 50px;
-        //width: auto;
-        padding: 20px 20px;
-        line-height: 0.1;
+        width: 30%;
+        float: left;
+        text-align: left;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 16px;
         p {
-          margin: 3%;
+          margin: 2.5%;
         }
       }
       .building {
-        float: none;
-        padding: 0px 0px 0px 0px;
+        //  float: right;
         img {
           width: 100%;
         }
@@ -70,20 +33,48 @@
     }
   }
 }
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .addr {
-    .top_wrapper {
-      .descNimg {
-        font-size: 16px;
-        line-height: 10px;
-      }
-      .building {
-        img {
-          object-fit: cover;
+    .addr_wrapper {
+      .top_wrapper {
+        flex-direction: column;
+        padding: 0px 0px;
+        // width: 100%;
+        .descNimg {
+          //text-align: center;
+          width: 100%;
+          // padding: 50px;
+          //width: auto;
+          padding: 20px 20px;
+          line-height: 0.1;
+          p {
+            margin: 3%;
+          }
+        }
+        .building {
+          float: none;
+          padding: 0px 0px 0px 0px;
+          img {
+            width: 100%;
+          }
         }
       }
     }
   }
 }
+@media only screen and (max-width: 700px) {
+  .addr {
+    .addr_wrapper {
+      .top_wrapper {
+        .descNimg {
+          font-size: 10px;
+        }
+        .building {
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,21 +1,16 @@
 import React, { Component } from "react";
-
 import building from "./../../assets/img/building.jpg";
-
 import Footer from "./../../components/footer/footer";
-
 import "./Address.scss";
 import "./../../views/Heading.scss";
-
 class Address extends Component {
   componentDidMount = () => {
     window.scrollTo(0, 0);
   };
   render() {
     return (
-      <>
-        <div className="addr">
-          <div className="add_wrapper">
+      <div className="addr">
+        <div className="addr_wrapper">
           <div className="header"> HIER FINDEN SIE UNS </div>
           <div className="border"></div>
           <div className="top_wrapper">
@@ -32,7 +27,7 @@ class Address extends Component {
               <p style={{ color: "#5ECD73" }}>Adresse</p>
               <p> Kissinger Str. 42</p>
               <p>97762 Hammelburg</p>
-              
+              <br></br>
               <p>1. Stock - Treppenaufgang</p>
               <br></br>
               <p style={{ color: "#5ECD73" }}>Telefon</p>
@@ -49,11 +44,13 @@ class Address extends Component {
             </div>
           </div>
         </div>
-        </div>
-        {/* <Footer style={{ bottom: "0px" }} /> */}
-      </>
+      </div>
     );
   }
 }
-
 export default Address;
+
+
+
+
+

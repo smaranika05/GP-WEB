@@ -9,7 +9,7 @@ class Impressum extends Component {
   };
   render() {
     return (
-      <><div className="imp">
+      <>
         <div className="im_wrapper">
        
 
@@ -222,7 +222,7 @@ class Impressum extends Component {
             </div>
           </div>
         </div>
-      </div>
+      
       </>
     );
   }

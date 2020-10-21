@@ -1,7 +1,4 @@
-.imp{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 
 .im_wrapper {
  
@@ -28,9 +25,10 @@
     }
   }
 }
-}
+
 
 @media only screen and (max-width: 1200px) {
+  
   .im_wrapper {
     font-size: 20px;
     .main {
