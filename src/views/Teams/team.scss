@@ -37,7 +37,7 @@
       }
 
       ul li::before {
-        color: #5ecd73;
+        color: rgb(94, 205, 115);
         list-style-type: square;
         content: "\25AA";
         font-weight: bold;
@@ -71,6 +71,7 @@
       }
       ul li::before {
         font-size: 2em;
+        color: rgb(94, 205, 115);
       }
     }
   }
@@ -99,6 +100,7 @@
         font-size: 2em;
         left: -0.8em;
         top: 0em;
+        color: rgb(94, 205, 115);
       }
     }
   }
