@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: calc(100vh - 200px);
   .wrap_content {
     max-width: 100%;
     .image_team {

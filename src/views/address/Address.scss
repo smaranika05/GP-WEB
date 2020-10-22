@@ -46,7 +46,7 @@
           // padding: 50px;
           //width: auto;
           padding: 20px 20px;
-          line-height: 0.1;
+          line-height: 10px;
           p {
             margin: 3%;
           }
@@ -67,7 +67,8 @@
     .addr_wrapper {
       .top_wrapper {
         .descNimg {
-          font-size: 10px;
+          font-size: 14px;
+          line-height: 10px;
         }
         .building {
           img {

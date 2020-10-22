@@ -38,7 +38,7 @@ class Root extends Component {
             <br></br>
             <br></br>
             <div className="address">
-              <div className="addr">
+              <div className="cont">
                 <p
                   style={{
                     fontFamily: "lato",

@@ -7,6 +7,7 @@
   
   align-items: center;
   justify-content: center;
+  min-height: calc(100vh - 200px);
   .ser_wrapper{
     max-width: 100%;
   .listing {
@@ -37,11 +38,28 @@
   }
 }
 }
+@media screen and (max-width: 1000px) {
+  .ser {
+    .ser_wrapper{
+    .listing {
+      margin-left: 15%;
+      li {
+        font-size: 15px;
+      }
+      li::before {
+        color: #5ecd73;
+      }
+    }
+  }
+}
+}
+
 
 @media screen and (max-width: 700px) {
   .ser {
+    .ser_wrapper{
     .listing {
-      margin-left: 10%;
+      margin-left: 10px;
       li {
         font-size: 15px;
       }
@@ -53,16 +71,4 @@
     }
   }
 }
-@media screen and (max-width: 1000px) {
-  .ser {
-    .listing {
-      margin-left: 15%;
-      li {
-        font-size: 15px;
-      }
-      li::before {
-        color: #5ecd73;
-      }
-    }
-  }
 }

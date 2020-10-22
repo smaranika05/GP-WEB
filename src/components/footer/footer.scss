@@ -1,6 +1,7 @@
 .footer_main {
   // box-sizing: border-box;
  bottom: -50px;
+ min-height: 200px;
   color: #7b7b7b;
   background: #1a1a1a;
   p {
@@ -90,6 +91,7 @@
   .footer_main {
     // height: 100%;
     // width: 200%;
+    overflow: hidden;
     .footer_wrap {
       font-size: 10px;
       .logo_footer {
@@ -98,7 +100,7 @@
         // justify-content: center;
         padding: 10px;
         img {
-          width: 60px;
+          width: 50px;
           object-fit: 100%;
         }
       }

@@ -78,6 +78,7 @@ pointer-events: none;
   top: 0;
   left: 0;
   background-color: white;
+ 
 /*  background: #4776E6;  
 background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  
 background: linear-gradient(to right, #8E54E9, #4776E6);  */
@@ -120,7 +121,7 @@ background: linear-gradient(to right, #8E54E9, #4776E6);  */
   flex-direction: column;
   justify-content: space-between;
   
-  height: 40vh;
+  min-height: 40vh;
 }
 
 
