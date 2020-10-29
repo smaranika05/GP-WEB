@@ -61,8 +61,8 @@ class Policy extends Component {
               werden.
               <br></br>
               <br></br>
-              personenbezogene Daten erfasst und verarbeitet werden.
-              Personenbezogenen Daten werden vertraulich und entsprechend der
+             
+              Personenbezogene Daten werden vertraulich und entsprechend der
               gesetzlich geltenden Datenschutzvorschriften behandelt.
             </p>
             <ul>
@@ -169,7 +169,7 @@ class Policy extends Component {
                 dokumentierte Datenschutzerklärung zeigt die Art der
                 Datenerhebung und ihren Zweck auf. Die verantwortliche Stelle,
                 die individuell oder zusammen mit anderen Personen Zweck und
-                Funktion personenbezogener Daten beschließt, ist in Punkt a)
+                Funktion personenbezogener Daten beschließt, ist oben
                 erwähnt.
               </p>
 
@@ -180,7 +180,7 @@ class Policy extends Component {
                 </b>
               </li>
               <p>
-                g) Widerruf im Zusammenhang mit Datenverarbeitungsprozessen &
+                 Widerruf im Zusammenhang mit Datenverarbeitungsprozessen &
                 Beschwerden Ein Teil der Datenverarbeitungsprozesse bedarf der
                 ausdrücklichen Zustimmung des Nutzers. Sollten Sie einem
                 Datenverarbeitungsprozess Ihre Zustimmung erteilt haben, so
@@ -355,7 +355,7 @@ class Policy extends Component {
               </li>
               <p>
                 Die hier vorliegende Datenschutzerklärung hat Gültigkeit und
-                wurde das letzte Mal am 05. September 2020 aktualisiert.
+                wurde das letzte Mal am 29. Oktober 2020 aktualisiert.
                 Rechtliche Anforderungen können sich mit der Zeit ändern. Auch
                 diese Webseite kann mit der Zeit Änderungen erfahren.
               </p>

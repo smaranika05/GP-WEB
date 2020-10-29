@@ -15,7 +15,7 @@ import Time from "./views/Time/time";
 import Gallery from "./views/gallery/Gallery";
 
 import Root from "./views/Root/Root";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import Header from "./components/header/header";
 import Kollege from "./views/Kollege/Kollege";
 class App extends Component {

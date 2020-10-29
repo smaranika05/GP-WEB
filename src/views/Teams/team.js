@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import image from "./../../assets/img/image.png";
 //import { Container } from "@material-ui/core";
 import "./team.scss";
+import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import Footer from "./../../components/footer/footer";
 import "./../../views/Heading.scss";
 class Team extends Component {
@@ -36,9 +37,9 @@ class Team extends Component {
 
                   <li>
                     Dr. Ottmar Dettner, Allgemeinarzt.{" "}
-                    <a href="/arztprofil" style={{ breakInside: "avoid" }}>
+                    <Link to="/arztprofil">
                       Zum Profil→
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     Ute Dettner, Krankenschwester. Im Praxisteam seit 1993.

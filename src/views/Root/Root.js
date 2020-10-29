@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import docroom from "./../../assets/img/x.png";
 import { MdLocationOn } from "react-icons/md";
 import { CgPhone } from "react-icons/cg";
+import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import "./Root.scss";
 class Root extends Component {
   render() {
@@ -25,12 +26,12 @@ class Root extends Component {
                 </a>
 
                 <br></br>
-                <a className="btn_two" href="/leistungsspektrum">
+                <Link to="/leistungsspektrum" className="btn_two">
                   <div className="btn_txt_two">
                     Leistungen, die wir für Sie anbieten.
                   </div>
                   <div className="btn_two_in"></div>
-                </a>
+                </Link>
               </div>
             </div>
 
