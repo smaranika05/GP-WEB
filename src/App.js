@@ -13,7 +13,7 @@ import Imp from "./views/Impressum/impressum";
 //import Doctor from "./views/Doctor/doctor";
 import Time from "./views/Time/time";
 import Gallery from "./views/gallery/Gallery";
-
+import {Helmet} from "react-helmet";
 import Root from "./views/Root/Root";
 import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import Header from "./components/header/header";
@@ -23,6 +23,20 @@ class App extends Component {
     return (
       <div>
         <Router>
+       
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Praxis Dr. Dettner</title>
+                <link rel="canonical" href="https://www.drdettner.de"></link>
+                <link rel="canonical" href="https://www.drdettner.de/leistungsspektrum" />
+                <link rel="canonical" href="https://www.drdettner.de/kontakt" />
+                <link rel="canonical" href="https://www.drdettner.de/kollegegesucht" />
+                <link rel="canonical" href="https://www.drdettner.de/arztprofil" />
+                <link rel="canonical" href="https://www.drdettner.de/datenschutzerklaerung" />
+                <link rel="canonical" href="https://www.drdettner.de/impressum" />
+                
+
+            </Helmet>
           <Header />
           <Route exact path="/" component={Home} />
           <Route exact path="/praxisteam" component={Team} />
