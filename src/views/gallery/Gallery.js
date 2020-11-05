@@ -6,8 +6,8 @@ import slide3 from "./../../assets/img/Room_3.png";
 import slide4 from "./../../assets/img/slide4.jpg";
 import slide5 from "./../../assets/img/slide5.jpg";
 import slide6 from "./../../assets/img/slide6.jpg";
+import slide7 from "./../../assets/img/slide7.png";
 import "./Gallery.scss";
-
 //===========================================
 // CREATE STYLES OBJECT
 //===========================================
@@ -17,12 +17,11 @@ const s = {
   main: "flex8 white",
   footer: "flex1 fCenter",
 };
-
 //===========================================
 // SLIDES DATA
 //===========================================
-const slides = [slide1, slide2, slide3, slide4,slide5, slide6];
-const slidePhone = [slide4, slide5, slide6];
+const slides = [slide1, slide2, slide3, slide4, slide5, slide6];
+const slidePhone = [slide7, slide5, slide6];
 //===========================================
 // APP COMPONENT
 //===========================================
@@ -48,5 +47,4 @@ class Gallery extends Component {
     );
   }
 }
-
 export default Gallery;
