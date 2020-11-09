@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Slideshow from "./Slideshow";
-import slide1 from "./../../assets/img/Room_1.png";
+import slide1 from "./../../assets/img/Room_1.jpg";
 import slide2 from "./../../assets/img/Room_2.png";
 import slide3 from "./../../assets/img/Room_3.png";
-import slide4 from "./../../assets/img/slide4.jpg";
+import slide4 from "./../../assets/img/slide4.png";
 import slide5 from "./../../assets/img/slide5.jpg";
 import slide6 from "./../../assets/img/slide6.jpg";
-import slide7 from "./../../assets/img/slide7.png";
+import slide7 from "./../../assets/img/slide7.jpg";
 import "./Gallery.scss";
 //===========================================
 // CREATE STYLES OBJECT

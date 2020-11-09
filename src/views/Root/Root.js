@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import docroom from "./../../assets/img/x.png";
+import docroom from "./../../assets/img/x1.png";
 import { MdLocationOn } from "react-icons/md";
 import { CgPhone } from "react-icons/cg";
 import { BrowserRouter as Router, Route,Link } from "react-router-dom";
@@ -21,7 +21,7 @@ class Root extends Component {
             <div className="links">
               <div className="center">
                 <a className="btn_one" href="#praxisteam">
-                  <div className="btn_txt_one">Erfahren Sie mehr über uns.</div>
+                  <div className="btn_txt_one">Erfahren Sie mehr über uns</div>
                   <div className="btn_one_in" href="#praxisteam"></div>
                 </a>
 
