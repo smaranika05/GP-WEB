@@ -26,10 +26,10 @@ class Team extends Component {
 
               <div className="content_team">
                 <p>
-                  Mit unseren PatientINNEN sowie untereinander pflegen wir einen
+                  Mit unseren Patientinnen sowie untereinander pflegen wir einen
                   vertrauensvollen, von Aufmerksamkeit und Respekt geprägten
                   Umgang. Das Praxisteam besteht seit 2005 in der jetzigen
-                  Konstellation. Unsere PatientINNEN wissen unser eingespieltes
+                  Konstellation. Unsere Patientinnen wissen unser eingespieltes
                   Team zu schätzen. Unser Team, von links nach rechts:
                 </p>
                 <ul className="content_list">

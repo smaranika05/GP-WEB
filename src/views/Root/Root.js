@@ -14,14 +14,14 @@ class Root extends Component {
               <h1>Wir sind für Sie da.</h1>
               <p style={{ fontFamily: "lato", fontSize: "16px" }}>
                 Seit 1993 sorgen wir, das Team der Allgemeinarztpraxis Dr. med.
-                Dettner, uns um das gesundheitliche Wohl unserer PatientINNEN.
+                Dettner, uns um das gesundheitliche Wohl unserer Patientinnen.
               </p>
             </div>
 
             <div className="links">
               <div className="center">
                 <a className="btn_one" href="#praxisteam">
-                  <div className="btn_txt_one">Erfahren Sie mehr über uns</div>
+                  <div className="btn_txt_one">Erfahren Sie mehr über uns.</div>
                   <div className="btn_one_in" href="#praxisteam"></div>
                 </a>
 

@@ -76,7 +76,7 @@ class Hover_img extends Component {
                         <p className="doc_content">
                           Die Allgemeinarztpraxis besteht seit dem Jahr 1993.
                           Bis heute liegt es uns am Herzen, dass unsere
-                          PatientINNEN optimal versorgt werden. Uns ist es
+                          Patientinnen optimal versorgt werden. Uns ist es
                           wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
                         </p>
                       </SubTitle>
@@ -96,7 +96,7 @@ class Hover_img extends Component {
           <h2 style={{ fontWeight: "normal" }}>Unser Praxisteam</h2>
           <p style={{ letterSpacing: "0.9px", wordSpacing: "1px" }}>
             Die Allgemeinarztpraxis besteht seit dem Jahr 1993. Bis heute liegt
-            es uns am Herzen, dass unsere PatientINNEN optimal versorgt werden.
+            es uns am Herzen, dass unsere Patientinnen optimal versorgt werden.
             Uns ist es wichtig, dass Sie sich bei uns gut aufgehoben fühlen.
           </p>
 
