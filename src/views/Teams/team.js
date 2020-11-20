@@ -29,7 +29,7 @@ class Team extends Component {
                   Mit unseren Patientinnen sowie untereinander pflegen wir einen
                   vertrauensvollen, von Aufmerksamkeit und Respekt geprägten
                   Umgang. Das Praxisteam besteht seit 2005 in der jetzigen
-                  Konstellation. Unsere Patientinnen wissen unser eingespieltes
+                  Konstellation. Unsere Patienten wissen unser eingespieltes
                   Team zu schätzen. Unser Team, von links nach rechts:
                 </p>
                 <ul className="content_list">
