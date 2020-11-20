@@ -23,7 +23,7 @@ class Kollege extends Component {
               <p>
                 Dr. med. Ottmar Dettner würde sich über eine Kollegin oder einen
                 Kollegen freuen, die / der sich mit ihm und unserem Team
-                zusammen um das Wohlergehen unserer PatientINNEN kümmert.
+                zusammen um das Wohlergehen unserer Patienten kümmert.
               </p>
               <p>
                 Sie sind Allgemeinärztin oder Allgemeinarzt und haben Interesse
