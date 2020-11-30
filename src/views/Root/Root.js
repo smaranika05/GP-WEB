@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import docroom from "./../../assets/img/x1.png";
-import { MdLocationOn } from "react-icons/m";
+import { MdLocationOn } from "react-icons/md";
 import { CgPhone } from "react-icons/cg";
 import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import "./Root.scss";
