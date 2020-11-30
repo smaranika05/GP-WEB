@@ -14,7 +14,7 @@ class Root extends Component {
               <h1>Wir sind für Sie da.</h1>
               <p style={{ fontFamily: "lato", fontSize: "16px" }}>
                 Seit 1993 sorgen wir, das Team der Allgemeinarztpraxis Dr. med.
-                Dettner, uns um das gesundheitliche Wohl unserer Patientinnen.
+                Dettner, uns um das gesundheitliche Wohl unserer Patienten.
               </p>
             </div>
 
