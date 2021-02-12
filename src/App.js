@@ -13,30 +13,37 @@ import Imp from "./views/Impressum/impressum";
 //import Doctor from "./views/Doctor/doctor";
 import Time from "./views/Time/time";
 import Gallery from "./views/gallery/Gallery";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import Root from "./views/Root/Root";
-import { BrowserRouter as Router, Route,Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "./components/header/header";
 import Kollege from "./views/Kollege/Kollege";
+import CookieConsent from "react-cookie-consent";
 class App extends Component {
   render() {
     return (
       <div>
         <Router>
-       
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>Praxis Dr. Dettner</title>
-                <link rel="canonical" href="https://www.drdettner.de"></link>
-                <link rel="canonical" href="https://www.drdettner.de/leistungsspektrum" />
-                <link rel="canonical" href="https://www.drdettner.de/kontakt" />
-                <link rel="canonical" href="https://www.drdettner.de/kollegegesucht" />
-                <link rel="canonical" href="https://www.drdettner.de/arztprofil" />
-                <link rel="canonical" href="https://www.drdettner.de/datenschutzerklaerung" />
-                <link rel="canonical" href="https://www.drdettner.de/impressum" />
-                
-
-            </Helmet>
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Praxis Dr. Dettner</title>
+            <link rel="canonical" href="https://www.drdettner.de"></link>
+            <link
+              rel="canonical"
+              href="https://www.drdettner.de/leistungsspektrum"
+            />
+            <link rel="canonical" href="https://www.drdettner.de/kontakt" />
+            <link
+              rel="canonical"
+              href="https://www.drdettner.de/kollegegesucht"
+            />
+            <link rel="canonical" href="https://www.drdettner.de/arztprofil" />
+            <link
+              rel="canonical"
+              href="https://www.drdettner.de/datenschutzerklaerung"
+            />
+            <link rel="canonical" href="https://www.drdettner.de/impressum" />
+          </Helmet>
           <Header />
           <Route exact path="/" component={Home} />
           <Route exact path="/praxisteam" component={Team} />
@@ -49,7 +56,24 @@ class App extends Component {
           <Route exact path="/Gallery" component={Gallery} />
           <Route exact path="/kollegegesucht" component={Kollege} />
           <Route path="#time" component={Time} />
-          <Footer/>
+          <Footer />
+          <CookieConsent
+            buttonText="Akzeptieren"
+            declineButtonText="Decline"
+            style={{ background: "black" }}
+            buttonStyle={{
+              backgroundColor: "#204379",
+              color: "white",
+              border: "1px solid white",
+            }}
+            enableDeclineButton
+            onDecline={() => {
+              alert("Declined!");
+            }}
+          >
+            Diese Website verwendet Cookies, um die Benutzererfahrung zu
+            verbessern.
+          </CookieConsent>
         </Router>
       </div>
     );
