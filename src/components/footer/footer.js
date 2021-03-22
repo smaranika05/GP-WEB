@@ -5,6 +5,7 @@ import "./footer.scss";
 // import PP from "./../../views/PrivacyPolicy/pp";
 // import Imp from "./../../views/Impressum/impressum";
 import logo from "./../../assets/img/white-softy.svg";
+import logoAppleute from "./../../assets/img/Appleute.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -41,11 +42,11 @@ function Footer() {
         <div className="right">
           Entwickelt von
           <a
-            href="https://softsourced.de/"
+            href="https://www.appleute.de/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={logo} alt="logo" />
+            <img src={logoAppleute} alt="logo" />
           </a>
         </div>
       </div>
