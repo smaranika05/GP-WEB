@@ -5,7 +5,7 @@ import "./footer.scss";
 // import PP from "./../../views/PrivacyPolicy/pp";
 // import Imp from "./../../views/Impressum/impressum";
 import logo from "./../../assets/img/white-softy.svg";
-import logoAppleute from "./../../assets/img/Appleute.png";
+import logoAppleute from "./../../assets/img/appleute_full_white.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
