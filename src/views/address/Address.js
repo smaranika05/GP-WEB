@@ -36,8 +36,7 @@ class Address extends Component {
               <p style={{ color: "#5ECD73" }}>Telefax</p>
               <p> 09732-1869</p>
               <br></br>
-              <p style={{ color: "#5ECD73" }}>E-Mail-Adresse</p>
-              <p>dr.dettner@gmail.com</p>
+              
             </div>
             <div className="building" name-member="building">
               <img src={building} alt="building" />
