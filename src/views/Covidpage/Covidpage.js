@@ -35,8 +35,8 @@ class Covid extends Component {
 <p>Unsere Impfreihenfolge basiert auf den Kriterien Alter und Krankheitsgeschichte, sodass die Betagten und Vorerkrankten relativ zuerst drankommen.</p>
 
 <p>Unseren Patient*innen empfehlen wir, sich bitte parallel beim Impfzentrum vom Landkreis Bad Kissingen zur Corona-Impfung zu registrieren. Hierüber erhalten Sie evtl. schon einen früheren Impftermin: <a style={{color:"#4CAF50"}} href="https://impfzentren.bayern/citizen/"> https://impfzentren.bayern/citizen/ </a>
-
- Sobald die Regierung die Impfpriosierung aufhebt, werden wir ggf. unsere Informationen aktualisieren.
+</p>
+ <p>Sobald die Regierung die Impfpriosierung aufhebt, werden wir ggf. unsere Informationen aktualisieren.
               </p>
             
             </div>

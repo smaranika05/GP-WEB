@@ -26,9 +26,9 @@
     }
     .box-text{
       background-color: #fff;
-    width: 80%;
+    width: 90%;
     border: 2px solid red;
-    padding: 50px;
+    padding: 30px;
     margin-bottom: 20px;
     }
     .right_content {
@@ -36,7 +36,7 @@
       // width: 60%;
       // line-height: 3px;
       // padding: 200px 50px 200px 0px;
-      margin-top: 100px;
+      margin-top: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -46,8 +46,8 @@
           font-family: Lato;
           font-style: normal;
           font-weight: normal;
-          font-size: 20px;
-          line-height: 28px;
+          font-size: 17px;
+          line-height: 20px;
           // word-break: keep-all;
         }
       }
@@ -142,8 +142,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        .box-text{width: 70%;}
         .content {
-          max-width: 80%;
+          max-width: 60%;
           p {
             // word-break: break-all;
             font-size: 14px;
