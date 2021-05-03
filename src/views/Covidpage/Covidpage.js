@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Covidpage.scss";
-import Doc2 from "./../../assets/img/covid.jpg";
+import Doc2 from "./../../assets/img/Covid2.png";
 import Footer from "./../../components/footer/footer";
 
 class Covid extends Component {
