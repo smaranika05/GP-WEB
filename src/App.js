@@ -18,6 +18,7 @@ import Root from "./views/Root/Root";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "./components/header/header";
 import Kollege from "./views/Kollege/Kollege";
+import Covid from "./views/Covidpage/Covidpage";
 import CookieConsent from "react-cookie-consent";
 class App extends Component {
   render() {
@@ -56,6 +57,7 @@ class App extends Component {
           <Route exact path="/Gallery" component={Gallery} />
           <Route exact path="/kollegegesucht" component={Kollege} />
           <Route path="#time" component={Time} />
+          <Route path="/corona-impfung" component={Covid} />
           <Footer />
           <CookieConsent
             buttonText="Akzeptieren"

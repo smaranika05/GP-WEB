@@ -10,6 +10,7 @@ class Root extends Component {
       <div>
         <div className="doctorRoom">
           <div className="left_content">
+            <p style={{color:"red"}}>Corona - wichtig! Wir rufen unsere Patient*innen an, sobald wir ein Impfangebot machen können.<a style={{color:"red"}}href="/corona-impfung"><u>Mehr Informationen </u>🠖</a></p>
             <div className="content">
               <h1>Wir sind für Sie da.</h1>
               <p style={{ fontFamily: "lato", fontSize: "16px" }}>
